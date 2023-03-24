@@ -1,0 +1,174 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 673milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 673"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50720"}
+{"logLevel":"info","message":"Listening on port:50720"}
+2023-03-23 00:09:17 INFO  Reflections:219 scan - Reflections took 2688 ms to scan 90 urls, producing 10980 keys and 62439 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkStatusCode2' and 'com.mikro.step.APISteps.checkStatusCode2'"}
+{"logLevel":"debug","message":"Found status kod {} ile ayni mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addHeader' and 'com.mikro.step.APISteps.addHeader'"}
+{"logLevel":"debug","message":"Found {} key {} value degerini headera ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.responseHashmap' and 'com.mikro.step.APISteps.responseHashmap'"}
+{"logLevel":"debug","message":"Found response {} keyinin degerini {} olarak kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.AddElementHashmapToRest' and 'com.mikro.step.APISteps.AddElementHashmapToRest'"}
+{"logLevel":"debug","message":"Found {} keyine hashmapdeki {} keyli değeri JObjecte ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found {} Elementine kadar kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found Scroll to Element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Send ENTER key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Elemente ENTER keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkDifferenceHashmap' and 'com.mikro.step.APISteps.checkDifferenceHashmap'"}
+{"logLevel":"debug","message":"Found Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkResponseMethod' and 'com.mikro.step.APISteps.checkResponseMethod'"}
+{"logLevel":"debug","message":"Found response {} alanı {} iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.createJObject' and 'com.mikro.step.APISteps.createJObject'"}
+{"logLevel":"debug","message":"Found Jobject Oluştur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} not contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içermiyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addHashmapManuel' and 'com.mikro.step.APISteps.addHashmapManuel'"}
+{"logLevel":"debug","message":"Found {} keyli {} degeri hashmap'e ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementAttributeWithJs' and 'com.mikro.step.BaseSteps.checkElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.setApi' and 'com.mikro.step.APISteps.setApi'"}
+{"logLevel":"debug","message":"Found {} apiye {} methoduyla istek at in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addToRequestBody' and 'com.mikro.step.APISteps.addToRequestBody'"}
+{"logLevel":"debug","message":"Found {} key ve {} value degerini JObjecte ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Wait for element then click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} key {} value degerini headera ekle : public void addHeader(String key, String value)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} key ve {} value degerini JObjecte ekle : public void addToRequestBody(String key, String value)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} apiye {} methoduyla istek at : public void setApi(String api, String type)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tHashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et : public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tJobject Oluştur : public void createJObject()"}
+{"logLevel":"debug","message":"\tSend ENTER key to element {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tWait for element then click {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\tresponse {} keyinin degerini {} olarak kaydet : public void responseHashmap(String key, String hashmapKey)"}
+{"logLevel":"debug","message":"\tScroll to Element {} : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\tŞuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tCheck if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tCheck if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} keyli {} degeri hashmap'e ekle : public void addHashmapManuel(String key, String value)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} keyine hashmapdeki {} keyli değeri JObjecte ekle : public void AddElementHashmapToRest(String key, String value)"}
+{"logLevel":"debug","message":"\tElemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\tstatus kod {} ile ayni mi kontrol et : public void checkStatusCode2(int statusCode)"}
+{"logLevel":"debug","message":"\tresponse {} alanı {} iceriyor mu kontrol et : public void checkResponseMethod(String key, String value)"}
+{"logLevel":"debug","message":"\t{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} textini {} elementine yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+2023-03-23 00:09:19 INFO  Reflections:219 scan - Reflections took 1213 ms to scan 90 urls, producing 10886 keys and 51696 values
+2023-03-23 00:09:19 INFO  BaseTest:61 setUp - ************************************  BeforeScenario  ************************************
+2023-03-23 00:09:19 INFO  BaseTest:64 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+Mar 23, 2023 12:09:19 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 38538
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2023 12:09:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} keyli {} degeri hashmap'e ekle' using 'class com.mikro.step.APISteps.addHashmapManuel"}
+2023-03-23 00:09:21 INFO  APISteps:126 addHashmapManuel - ad keyli ercan degeri manuel olarak hashmap'e eklendi
+{"logLevel":"debug","message":"Executing '{} keyli {} degeri hashmap'e ekle' using 'class com.mikro.step.APISteps.addHashmapManuel"}
+2023-03-23 00:09:21 INFO  APISteps:126 addHashmapManuel - soyad keyli kirbiyik degeri manuel olarak hashmap'e eklendi
+{"logLevel":"debug","message":"Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject"}
+2023-03-23 00:09:21 INFO  APISteps:37 createJObject - Yeni bir JObject Olusturuldu
+{"logLevel":"debug","message":"Executing '{} key ve {} value degerini JObjecte ekle' using 'class com.mikro.step.APISteps.addToRequestBody"}
+2023-03-23 00:09:21 INFO  APISteps:44 addToRequestBody - JObject'e id:1 degeri eklendi
+{"logLevel":"debug","message":"Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest"}
+2023-03-23 00:09:21 INFO  APISteps:112 AddElementHashmapToRest - JObject'e username:ercan degeri eklendi
+{"logLevel":"debug","message":"Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest"}
+2023-03-23 00:09:21 INFO  APISteps:112 AddElementHashmapToRest - JObject'e firstName:kirbiyik degeri eklendi
+{"logLevel":"debug","message":"Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi"}
+2023-03-23 00:09:21 INFO  APISteps:50 setApi - https://petstore.swagger.io/v2/ servisine post istegi atildi
+2023-03-23 00:09:23 INFO  APISteps:82 setApi - Request : {"firstName":"kirbiyik","id":"1","username":"ercan"}
+2023-03-23 00:09:23 INFO  APISteps:83 setApi - Response : {"code":200,"type":"unknown","message":"1"}
+{"logLevel":"debug","message":"Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2"}
+2023-03-23 00:09:23 INFO  APISteps:90 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+{"logLevel":"debug","message":"Executing 'response {} keyinin degerini {} olarak kaydet' using 'class com.mikro.step.APISteps.responseHashmap"}
+2023-03-23 00:09:23 INFO  APISteps:106 responseHashmap - response code keyinin degerini IDcodee olarak kaydedildi
+{"logLevel":"debug","message":"Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject"}
+2023-03-23 00:09:23 INFO  APISteps:37 createJObject - Yeni bir JObject Olusturuldu
+{"logLevel":"debug","message":"Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest"}
+2023-03-23 00:09:23 INFO  APISteps:112 AddElementHashmapToRest - JObject'e id:200 degeri eklendi
+{"logLevel":"debug","message":"Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest"}
+2023-03-23 00:09:23 INFO  APISteps:112 AddElementHashmapToRest - JObject'e username:ercan degeri eklendi
+{"logLevel":"debug","message":"Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest"}
+2023-03-23 00:09:23 INFO  APISteps:112 AddElementHashmapToRest - JObject'e firstName:kirbiyik degeri eklendi
+{"logLevel":"debug","message":"Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi"}
+2023-03-23 00:09:23 INFO  APISteps:50 setApi - https://petstore.swagger.io/v2/ servisine post istegi atildi
+2023-03-23 00:09:24 INFO  APISteps:82 setApi - Request : {"firstName":"kirbiyik","id":"200","username":"ercan"}
+2023-03-23 00:09:24 INFO  APISteps:83 setApi - Response : {"code":200,"type":"unknown","message":"200"}
+{"logLevel":"debug","message":"Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2"}
+2023-03-23 00:09:24 INFO  APISteps:90 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

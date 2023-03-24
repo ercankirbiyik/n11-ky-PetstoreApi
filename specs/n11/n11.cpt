@@ -1,6 +1,71 @@
-Created by testinium on 21.03.2023
+Created by Ercan Kirbiyik
 
-This is a concept file with following syntax for each concept.
-# Concept Heading
-* step1
-* step2
+# n11 web adresine gidilir ve ana sayfanın açıldığı kontrol edilir
+* "https://www.n11.com/" adresine git
+* Element "n11Header" var mı kontrol et yoksa hata mesajı ver "n11 Anasayfası açılmadı!!!"
+
+# Giriş yap butonuna tıklanır
+* Element var mı kontrol et "n11GirisYapButon"
+* Elementi bekle ve sonra tıkla "n11GirisYapButon"
+
+# E-posta adresi alanına <email> değeri yazılır
+* Element var mı kontrol et "email"
+* <email> textini "email" elementine yaz
+
+# Şifre alanına <password> değeri girilir
+* Element var mı kontrol et "sifre"
+* <password> textini "sifre" elementine yaz
+
+# Login butonuna tıklanır
+* Element var mı kontrol et "loginButton"
+* Elementi bekle ve sonra tıkla "loginButton"
+
+# Login işlemi <text> ismi ile kontol edilir
+* Element var mı kontrol et "hesabımEliptigi"
+* Elementi bekle ve sonra tıkla "hesabımEliptigi"
+* "profilFullName" elementi <text> değerini içeriyor mu kontrol et
+
+# <text> değeri ürün arama alanına yazılır ve ara butonuna tıklanır
+* Element var mı kontrol et "urunAramaAlani"
+* <text> textini "urunAramaAlani" elementine yaz
+* Element var mı kontrol et "urunAraButton"
+* Elementi bekle ve sonra tıkla "urunAraButton"
+
+# Ürün arama sonuç filtreleme alanının <text> değerini içerdiği kontrol edilir
+* Element var mı kontrol et "sonucFiltrelemeAlani"
+* "sonucFiltrelemeAlani" elementi <text> değerini içeriyor mu kontrol et
+* "5" saniye bekle
+
+# Sayfa numaralarının olduğu alana kaydırılır ve 2. sayfaya geçilir
+* "ikinciSayfaNoButonu" Elementine kadar kaydır
+* "ikinciSayfaNoButonu" elementine javascript ile tıkla
+ "2" saniye bekle
+ "ikinciSayfaNoButonu" Elementine kadar kaydır
+ Elementi bekle ve sonra tıkla "ikinciSayfaNoButonu"
+
+# <url> kontrolü yapılarak ikinci sayfaya geçildiği kontrol edilir
+* "1" saniye bekle
+* Şu anki URL <url> değerini içeriyor mu kontrol et
+
+# İkinci sayfadaki üçüncü ürün favorilere eklenir
+* Element var mı kontrol et "ikinciSayfa3UrunFavoriButton"
+* Elementi bekle ve sonra tıkla "ikinciSayfa3UrunFavoriButton"
+
+# Hesabım butonunun üstünde beklenir ve açılan menuden favorilerim-listelerim butonuna tıklanır
+* Element var mı kontrol et "hesabimButton"
+* "hesabimButton" elementin üstünde bekle
+* Element var mı kontrol et "favorilerimListelerimButton"
+* Elementi bekle ve sonra tıkla "favorilerimListelerimButton"
+
+# Açılan favoriler sayfasında sil butonuna tıklanır
+* Element var mı kontrol et "deleteItemButton"
+* Elementi bekle ve sonra tıkla "deleteItemButton"
+
+# Popup mesaj alanı <text> değerini içerdiği kontrol edilir
+* Element var mı kontrol et "popupMessageField"
+* "popupMessageField" elementi <text> değerini içeriyor mu kontrol et
+
+# Hesabım butonunun üstünde beklenir ve açılan menuden çıkış yap butonuna tıklanır
+* Element var mı kontrol et "CikisYapButton"
+* Elementi bekle ve sonra tıkla "CikisYapButton"
+* "1" saniye bekle

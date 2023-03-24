@@ -1,27 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e603ded-cdfd-4b73-b302-0a0fb8ecaab8" name="Changes" comment="" />
+    <list default="true" id="4e603ded-cdfd-4b73-b302-0a0fb8ecaab8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/5906-java.out" beforeDir="false" afterPath="$PROJECT_DIR$/logs/5906-java.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.cpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/n11/n11.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/n11/n11.cpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/n11/n11.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/n11/n11.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/model/ElementInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/model/ElementInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/step/APISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/step/APISteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/step/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/step/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/elementValues/n11/kitapyurdu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/elementValues/n11/kitapyurdu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/elementValues/n11/n11.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/elementValues/n11/n11.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Specification" />
+        <option value="Concept" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2NKyYCvOKRF8ZP21HCrWbSCf5vu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/ercan/IdeaProjects/N11",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_driver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gauge Execution.N11 Favori Ürün Senaryosu (1)">
+    <configuration name="Kitap Yurdu Favori Ürün Senaryosu (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kitap Yurdu Favori Ürün Senaryosu (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kitap Yurdu Favori Ürün Senaryosu (3)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N11 Favori Ürün Senaryosu (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/n11/n11.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N11 Favori Ürün Senaryosu" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/n11/n11.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gauge Execution.N11 Favori Ürün Senaryosu (1)" />
+        <item itemvalue="Gauge Execution.N11 Favori Ürün Senaryosu" />
+        <item itemvalue="Gauge Execution.Kitap Yurdu Favori Ürün Senaryosu (3)" />
+        <item itemvalue="Gauge Execution.Kitap Yurdu Favori Ürün Senaryosu (2)" />
+        <item itemvalue="Gauge Execution.Kitap Yurdu Favori Ürün Senaryosu (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,5 +183,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,0 +1,242 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 558milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 558"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49677"}
+{"logLevel":"info","message":"Listening on port:49677"}
+2023-03-24 20:25:20 INFO  Reflections:219 scan - Reflections took 2443 ms to scan 90 urls, producing 10980 keys and 62439 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkStatusCode2' and 'com.mikro.step.APISteps.checkStatusCode2'"}
+{"logLevel":"debug","message":"Found status kod {} ile ayni mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addHeader' and 'com.mikro.step.APISteps.addHeader'"}
+{"logLevel":"debug","message":"Found {} key {} value degerini headera ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.responseHashmap' and 'com.mikro.step.APISteps.responseHashmap'"}
+{"logLevel":"debug","message":"Found response {} keyinin degerini {} olarak kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.AddElementHashmapToRest' and 'com.mikro.step.APISteps.AddElementHashmapToRest'"}
+{"logLevel":"debug","message":"Found {} keyine hashmapdeki {} keyli değeri JObjecte ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found {} Elementine kadar kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'"}
+{"logLevel":"debug","message":"Found Scroll to Element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Send ENTER key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'"}
+{"logLevel":"debug","message":"Found Elemente ENTER keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkDifferenceHashmap' and 'com.mikro.step.APISteps.checkDifferenceHashmap'"}
+{"logLevel":"debug","message":"Found Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.checkResponseMethod' and 'com.mikro.step.APISteps.checkResponseMethod'"}
+{"logLevel":"debug","message":"Found response {} alanı {} iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.createJObject' and 'com.mikro.step.APISteps.createJObject'"}
+{"logLevel":"debug","message":"Found Jobject Oluştur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} not contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içermiyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addHashmapManuel' and 'com.mikro.step.APISteps.addHashmapManuel'"}
+{"logLevel":"debug","message":"Found {} keyli {} degeri hashmap'e ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementAttributeWithJs' and 'com.mikro.step.BaseSteps.checkElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.setApi' and 'com.mikro.step.APISteps.setApi'"}
+{"logLevel":"debug","message":"Found {} apiye {} methoduyla istek at in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.APISteps.addToRequestBody' and 'com.mikro.step.APISteps.addToRequestBody'"}
+{"logLevel":"debug","message":"Found {} key ve {} value degerini JObjecte ekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Wait for element then click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} key {} value degerini headera ekle : public void addHeader(String key, String value)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} key ve {} value degerini JObjecte ekle : public void addToRequestBody(String key, String value)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} apiye {} methoduyla istek at : public void setApi(String api, String type)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tHashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et : public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tJobject Oluştur : public void createJObject()"}
+{"logLevel":"debug","message":"\tSend ENTER key to element {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tWait for element then click {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\tresponse {} keyinin degerini {} olarak kaydet : public void responseHashmap(String key, String hashmapKey)"}
+{"logLevel":"debug","message":"\tScroll to Element {} : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\tŞuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tCheck if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tCheck if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\t{} keyli {} degeri hashmap'e ekle : public void addHashmapManuel(String key, String value)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} keyine hashmapdeki {} keyli değeri JObjecte ekle : public void AddElementHashmapToRest(String key, String value)"}
+{"logLevel":"debug","message":"\tElemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\tstatus kod {} ile ayni mi kontrol et : public void checkStatusCode2(int statusCode)"}
+{"logLevel":"debug","message":"\tresponse {} alanı {} iceriyor mu kontrol et : public void checkResponseMethod(String key, String value)"}
+{"logLevel":"debug","message":"\t{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} textini {} elementine yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+2023-03-24 20:25:22 INFO  Reflections:219 scan - Reflections took 1015 ms to scan 90 urls, producing 10886 keys and 51696 values
+2023-03-24 20:25:22 INFO  BaseTest:61 setUp - ************************************  BeforeScenario  ************************************
+2023-03-24 20:25:22 INFO  BaseTest:64 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+Mar 24, 2023 8:25:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 44591
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 24, 2023 8:25:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} adresine git' using 'class com.mikro.step.BaseSteps.goToUrl"}
+2023-03-24 20:25:25 INFO  BaseSteps:88 goToUrl - https://www.kitapyurdu.com/ adresine gidiliyor.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:25 INFO  BaseSteps:121 getElementWithKeyIfExists - kyHeader elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:25 INFO  BaseSteps:121 getElementWithKeyIfExists - kyGirisYapButton elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:26 INFO  BaseSteps:121 getElementWithKeyIfExists - kyGirisYapButton elementi bulundu.
+2023-03-24 20:25:27 INFO  BaseSteps:156 clickElement - kyGirisYapButton elementine tıklandı.
+2023-03-24 20:25:27 INFO  BaseSteps:165 checkElementExistsThenClick - kyGirisYapButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:27 INFO  BaseSteps:121 getElementWithKeyIfExists - kyEmailTextBox elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} textini {} elementine yaz' using 'class com.mikro.step.BaseSteps.ssendKeys"}
+2023-03-24 20:25:27 INFO  BaseSteps:180 ssendKeys - kyEmailTextBox elementine rcnkirbiyik@gmail.com texti yazıldı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:27 INFO  BaseSteps:121 getElementWithKeyIfExists - kyEmailTextBox elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} textini {} elementine yaz' using 'class com.mikro.step.BaseSteps.ssendKeys"}
+2023-03-24 20:25:27 INFO  BaseSteps:180 ssendKeys - kyPasswordTextBox elementine Ercan30. texti yazıldı.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:27 INFO  BaseSteps:121 getElementWithKeyIfExists - kyLoginButton elementi bulundu.
+2023-03-24 20:25:28 INFO  BaseSteps:156 clickElement - kyLoginButton elementine tıklandı.
+2023-03-24 20:25:28 INFO  BaseSteps:165 checkElementExistsThenClick - kyLoginButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:29 INFO  BaseSteps:121 getElementWithKeyIfExists - kyHesapBilgilerim elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:29 INFO  BaseSteps:121 getElementWithKeyIfExists - kyHesapBilgilerim elementi bulundu.
+2023-03-24 20:25:30 INFO  BaseSteps:156 clickElement - kyHesapBilgilerim elementine tıklandı.
+2023-03-24 20:25:30 INFO  BaseSteps:165 checkElementExistsThenClick - kyHesapBilgilerim elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} Elementine kadar kaydır' using 'class com.mikro.step.BaseSteps.scrollToElementToBeVisible"}
+2023-03-24 20:25:30 INFO  BaseSteps:233 scrollToElementToBeVisible - Sayfa 'kyEmailAlani' elementine kadar kaydırıldı.
+{"logLevel":"debug","message":"Executing '{} elementinin value degeri {} degerini iceriyor mu kontrol et' using 'class com.mikro.step.BaseSteps.checkElementAttributeWithJs"}
+2023-03-24 20:25:30 INFO  BaseSteps:245 checkElementAttributeWithJs - kyEmailAlani elementinin value degeri rcnkirbiyik@gmail.com degerini iceriyor
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:30 INFO  BaseSteps:121 getElementWithKeyIfExists - kySearchBox elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} textini {} elementine yaz' using 'class com.mikro.step.BaseSteps.ssendKeys"}
+2023-03-24 20:25:30 INFO  BaseSteps:180 ssendKeys - kySearchBox elementine can texti yazıldı.
+{"logLevel":"debug","message":"Executing 'Elemente ENTER keyi yolla {}' using 'class com.mikro.step.BaseSteps.sendKeyToElementENTER"}
+2023-03-24 20:25:31 INFO  BaseSteps:172 sendKeyToElementENTER - kySearchBox elementine ENTER keyi yollandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:31 INFO  BaseSteps:121 getElementWithKeyIfExists - kySearchBox elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} elementinin value degeri {} degerini iceriyor mu kontrol et' using 'class com.mikro.step.BaseSteps.checkElementAttributeWithJs"}
+2023-03-24 20:25:31 INFO  BaseSteps:245 checkElementAttributeWithJs - kySearchBox elementinin value degeri can degerini iceriyor
+{"logLevel":"debug","message":"Executing '{} Elementine kadar kaydır' using 'class com.mikro.step.BaseSteps.scrollToElementToBeVisible"}
+2023-03-24 20:25:31 INFO  BaseSteps:233 scrollToElementToBeVisible - Sayfa 'kySayfaNo2' elementine kadar kaydırıldı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:31 INFO  BaseSteps:121 getElementWithKeyIfExists - kySayfaNo2 elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:31 INFO  BaseSteps:121 getElementWithKeyIfExists - kySayfaNo2 elementi bulundu.
+2023-03-24 20:25:32 INFO  BaseSteps:156 clickElement - kySayfaNo2 elementine tıklandı.
+2023-03-24 20:25:32 INFO  BaseSteps:165 checkElementExistsThenClick - kySayfaNo2 elementine tıklandı.
+{"logLevel":"debug","message":"Executing '{} Elementine kadar kaydır' using 'class com.mikro.step.BaseSteps.scrollToElementToBeVisible"}
+2023-03-24 20:25:32 INFO  BaseSteps:233 scrollToElementToBeVisible - Sayfa 'kySeciliSayfaNo2' elementine kadar kaydırıldı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:32 INFO  BaseSteps:121 getElementWithKeyIfExists - kySeciliSayfaNo2 elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} Elementine kadar kaydır' using 'class com.mikro.step.BaseSteps.scrollToElementToBeVisible"}
+2023-03-24 20:25:32 INFO  BaseSteps:233 scrollToElementToBeVisible - Sayfa 'ky3ncuUrunFavoriButton' elementine kadar kaydırıldı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:32 INFO  BaseSteps:121 getElementWithKeyIfExists - ky3ncuUrunFavoriButton elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:32 INFO  BaseSteps:121 getElementWithKeyIfExists - ky3ncuUrunFavoriButton elementi bulundu.
+2023-03-24 20:25:32 INFO  BaseSteps:156 clickElement - ky3ncuUrunFavoriButton elementine tıklandı.
+2023-03-24 20:25:32 INFO  BaseSteps:165 checkElementExistsThenClick - ky3ncuUrunFavoriButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:33 INFO  BaseSteps:121 getElementWithKeyIfExists - kyPopup elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} elementi {} değerini içeriyor mu kontrol et' using 'class com.mikro.step.BaseSteps.checkElementContainsText"}
+2023-03-24 20:25:33 INFO  BaseSteps:208 checkElementContainsText - Beklenen text: Ürün başarılı bir şekilde favorilerinize eklendi!
+2023-03-24 20:25:33 INFO  BaseSteps:209 checkElementContainsText - Gerçek text: true
+2023-03-24 20:25:33 INFO  BaseSteps:212 checkElementContainsText - kyPopup elementi 'Ürün başarılı bir şekilde favorilerinize eklendi!' degerini iceriyor.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:33 INFO  BaseSteps:121 getElementWithKeyIfExists - kyMenuTopLoginButton elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} Elementine kadar kaydır' using 'class com.mikro.step.BaseSteps.scrollToElementToBeVisible"}
+2023-03-24 20:25:33 INFO  BaseSteps:233 scrollToElementToBeVisible - Sayfa 'kyMenuTopLoginButton' elementine kadar kaydırıldı.
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class com.mikro.step.BaseSteps.waitBySeconds"}
+2023-03-24 20:25:33 INFO  BaseSteps:95 waitBySeconds - 1 saniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:34 INFO  BaseSteps:121 getElementWithKeyIfExists - kyMenuTopLoginButton elementi bulundu.
+2023-03-24 20:25:35 INFO  BaseSteps:156 clickElement - kyMenuTopLoginButton elementine tıklandı.
+2023-03-24 20:25:35 INFO  BaseSteps:165 checkElementExistsThenClick - kyMenuTopLoginButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:35 INFO  BaseSteps:121 getElementWithKeyIfExists - kyHesabimFavorilerButton elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:35 INFO  BaseSteps:121 getElementWithKeyIfExists - kyHesabimFavorilerButton elementi bulundu.
+2023-03-24 20:25:35 INFO  BaseSteps:156 clickElement - kyHesabimFavorilerButton elementine tıklandı.
+2023-03-24 20:25:35 INFO  BaseSteps:165 checkElementExistsThenClick - kyHesabimFavorilerButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:35 INFO  BaseSteps:121 getElementWithKeyIfExists - kyFavorilerHeader elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} elementi {} değerini içeriyor mu kontrol et' using 'class com.mikro.step.BaseSteps.checkElementContainsText"}
+2023-03-24 20:25:35 INFO  BaseSteps:208 checkElementContainsText - Beklenen text: Favorilerim
+2023-03-24 20:25:35 INFO  BaseSteps:209 checkElementContainsText - Gerçek text: true
+2023-03-24 20:25:35 INFO  BaseSteps:212 checkElementContainsText - kyFavorilerHeader elementi 'Favorilerim' degerini iceriyor.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:35 INFO  BaseSteps:121 getElementWithKeyIfExists - kyFavorilerdenSilFirstButton elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementi bekle ve sonra tıkla {}' using 'class com.mikro.step.BaseSteps.checkElementExistsThenClick"}
+2023-03-24 20:25:35 INFO  BaseSteps:121 getElementWithKeyIfExists - kyFavorilerdenSilFirstButton elementi bulundu.
+2023-03-24 20:25:35 INFO  BaseSteps:156 clickElement - kyFavorilerdenSilFirstButton elementine tıklandı.
+2023-03-24 20:25:35 INFO  BaseSteps:165 checkElementExistsThenClick - kyFavorilerdenSilFirstButton elementine tıklandı.
+{"logLevel":"debug","message":"Executing 'Element var mı kontrol et {}' using 'class com.mikro.step.BaseSteps.getElementWithKeyIfExists"}
+2023-03-24 20:25:36 INFO  BaseSteps:121 getElementWithKeyIfExists - kyNotification elementi bulundu.
+{"logLevel":"debug","message":"Executing '{} elementi {} değerini içeriyor mu kontrol et' using 'class com.mikro.step.BaseSteps.checkElementContainsText"}
+2023-03-24 20:25:36 INFO  BaseSteps:208 checkElementContainsText - Beklenen text: Ürün başarılı bir şekilde favorilerinizden silindi!
+2023-03-24 20:25:36 INFO  BaseSteps:209 checkElementContainsText - Gerçek text: true
+2023-03-24 20:25:36 INFO  BaseSteps:212 checkElementContainsText - kyNotification elementi 'Ürün başarılı bir şekilde favorilerinizden silindi!' degerini iceriyor.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,13 @@
+Listening for transport dt_socket at address: 62116
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 778milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 778"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62152"}
+{"logLevel":"info","message":"Listening on port:62152"}
+Listening for transport dt_socket at address: 62116
+2023-03-22 22:18:21 INFO  Reflections:219 scan - Reflections took 2450 ms to scan 90 urls, producing 10980 keys and 62427 values

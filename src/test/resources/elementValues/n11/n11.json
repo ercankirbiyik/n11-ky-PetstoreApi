@@ -1,0 +1,87 @@
+[
+  {
+    "key": "n11Header",
+    "value": "#header>.container",
+    "type": "css"
+  },
+  {
+    "key": "n11GirisYapButon",
+    "value": ".btnSignIn",
+    "type": "css"
+  },
+  {
+    "key": "email",
+    "value": "//*[@id='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "sifre",
+    "value": "#password",
+    "type": "css"
+  },
+  {
+    "key": "loginButton",
+    "value": "loginButton",
+    "type": "id"
+  },
+  {
+    "key": "hesabımEliptigi",
+    "value": ".myAccount.myAccountElliptical>a",
+    "type": "css"
+  },
+  {
+    "key": "profilFullName",
+    "value": ".my_account__menu__profile__full_name",
+    "type": "css"
+  },
+  {
+    "key": "urunAramaAlani",
+    "value": "searchData",
+    "type": "id"
+  },
+  {
+    "key": "urunAraButton",
+    "value": ".iconsSearch",
+    "type": "css"
+  },
+  {
+    "key": "sonucFiltrelemeAlani",
+    "value": "#breadCrumb>.clearfix>li>a>span",
+    "type": "css"
+  },
+  {
+    "key": "ikinciSayfaNoButonu",
+    "value": "//*[@data-page='2']",
+    "type": "xpath"
+  },
+  {
+    "key": "ikinciSayfa3UrunFavoriButton",
+    "value": "//*[@data-productid='516752304']",
+    "type": "xpath"
+  },
+  {
+    "key": "hesabimButton",
+    "value": "//*[@title='Hesabım']",
+    "type": "xpath"
+  },
+  {
+    "key": "favorilerimListelerimButton",
+    "value": "//*[@title='Favorilerim & Listelerim']",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteItemButton",
+    "value": ".itemDetail>div>div:nth-child(2)",
+    "type": "css"
+  },
+  {
+    "key": "popupMessageField",
+    "value": ".toaster-sub-title",
+    "type": "css"
+  },
+  {
+    "key": "CikisYapButton",
+    "value": ".logoutBtn",
+    "type": "css"
+  }
+]

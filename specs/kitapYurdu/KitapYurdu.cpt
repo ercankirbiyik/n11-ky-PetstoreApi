@@ -1,6 +1,77 @@
-Created by testinium on 24.03.2023
+Created by Ercan Kirbiyik
 
-This is a concept file with following syntax for each concept.
-# Concept Heading
-* step1
-* step2
+# Kitapyurdu web adresine gidilir ve ana sayfanın açıldığı kontrol edilir
+* "https://www.kitapyurdu.com/" adresine git
+* Element var mı kontrol et "kyHeader"
+
+# KY giriş yap butonuna tıklanır
+* Element var mı kontrol et "kyGirisYapButton"
+* Elementi bekle ve sonra tıkla "kyGirisYapButton"
+
+# KY <email> mail adresi ve <password> şifresi ile login olunur
+* Element var mı kontrol et "kyEmailTextBox"
+* <email> textini "kyEmailTextBox" elementine yaz
+* Element var mı kontrol et "kyEmailTextBox"
+* <password> textini "kyPasswordTextBox" elementine yaz
+* Elementi bekle ve sonra tıkla "kyLoginButton"
+
+# KY hesap bilgilerim alanından <email> adresi ile giriş yapıldığı kontrol edilir
+* Element var mı kontrol et "kyHesapBilgilerim"
+* Elementi bekle ve sonra tıkla "kyHesapBilgilerim"
+* "kyEmailAlani" Elementine kadar kaydır
+* "kyEmailAlani" elementinin value degeri <email> degerini iceriyor mu kontrol et
+
+# KY arama alanına <text> değeri yazılır ve aratılır
+* Element var mı kontrol et "kySearchBox"
+* <text> textini "kySearchBox" elementine yaz
+* Elemente ENTER keyi yolla "kySearchBox"
+
+# KY aratılan kelimenin <text> olduğu kontrol edilir
+* Element var mı kontrol et "kySearchBox"
+* "kySearchBox" elementinin value degeri <text> degerini iceriyor mu kontrol et
+
+# KY ikinci sayfaya geçilir ve ikinci sayfanın açıldığı kontrol edilir
+* "kySayfaNo2" Elementine kadar kaydır
+* Element var mı kontrol et "kySayfaNo2"
+* Elementi bekle ve sonra tıkla "kySayfaNo2"
+* "kySeciliSayfaNo2" Elementine kadar kaydır
+* Element var mı kontrol et "kySeciliSayfaNo2"
+
+# KY ikinci sayfadaki üçüncü ürün favorilere eklenir
+* "ky3ncuUrunFavoriButton" Elementine kadar kaydır
+* Element var mı kontrol et "ky3ncuUrunFavoriButton"
+* Elementi bekle ve sonra tıkla "ky3ncuUrunFavoriButton"
+
+# KY popupın <text> değerini içerdiği kontrol edilir
+* Element var mı kontrol et "kyPopup"
+* "kyPopup" elementi <text> değerini içeriyor mu kontrol et
+
+# KY top login butonuna tıklanır
+* Element var mı kontrol et "kyMenuTopLoginButton"
+* "kyMenuTopLoginButton" Elementine kadar kaydır
+* "1" saniye bekle
+* Elementi bekle ve sonra tıkla "kyMenuTopLoginButton"
+
+# KY açılan hesabım sayfasında favorilerim butonuna tıklanır
+* Element var mı kontrol et "kyHesabimFavorilerButton"
+* Elementi bekle ve sonra tıkla "kyHesabimFavorilerButton"
+
+# KY açılan sayfanın <text> sayfası olduğu kontrol edilir
+* Element var mı kontrol et "kyFavorilerHeader"
+* "kyFavorilerHeader" elementi <text> değerini içeriyor mu kontrol et
+
+# KY eklenen ürün favorilerden silinir
+* Element var mı kontrol et "kyFavorilerdenSilFirstButton"
+* Elementi bekle ve sonra tıkla "kyFavorilerdenSilFirstButton"
+
+# KY bildirim alanının <mesaj> mesajını içerdiği kontrol edilir
+* Element var mı kontrol et "kyNotification"
+* "kyNotification" elementi <mesaj> değerini içeriyor mu kontrol et
+
+# KY top login butonunun üstünde beklenir ve çıkış butonuna tıklanır
+* "kyMenuTopLoginButton" Elementine kadar kaydır
+* "1" saniye bekle
+* "kyMenuTopLoginButton" elementin üstünde bekle
+* Element var mı kontrol et "kyCikisYapButton"
+* Elementi bekle ve sonra tıkla "kyCikisYapButton"
+* "1" saniye bekle

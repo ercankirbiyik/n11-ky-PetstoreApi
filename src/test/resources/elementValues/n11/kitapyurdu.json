@@ -1,0 +1,122 @@
+[
+  {
+    "key": "kyGirisYapButton",
+    "value": ".menu-top-button.login>a",
+    "type": "css"
+  },
+  {
+    "key": "kyEmailTextBox",
+    "value": "login-email",
+    "type": "id"
+  },
+  {
+    "key": "kyPasswordTextBox",
+    "value": "login-password",
+    "type": "id"
+  },
+  {
+    "key": "kyLoginButton",
+    "value": "//*[@class='ky-btn ky-btn-orange w-100 ky-login-btn']",
+    "type": "xpath"
+  },
+  {
+    "key": "kyHesapBilgilerim",
+    "value": ".fa.fa-address-book.fa-fw",
+    "type": "css"
+  },
+  {
+    "key": "kyEmailAlani",
+    "value": "//*[@name='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "kyHeader",
+    "value": "//*[@title='kitapla buluşmanın en kolay yolu!'][@alt='kitapyurdu.com']",
+    "type": "xpath"
+  },
+  {
+    "key": "kySearchBox",
+    "value": "search-input",
+    "type": "id"
+  },
+  {
+    "key": "kySayfaNo2",
+    "value": "//*[@id='content']/div[3]/div[4]/div[4]/div[1]/a[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "kySeciliSayfaNo2",
+    "value": "//*[@id='content']/div[3]/div[4]/div[3]/div[1]/b",
+    "type": "xpath"
+  },
+  {
+    "key": "ky3ncuUrunFavoriButton",
+    "value": "#product-642367>.grid_2.alpha.omega.relative>.hover-menu>.add-to-favorites>i",
+    "type": "css"
+  },
+  {
+    "key": "kyMenuTopLoginButton",
+    "value": "//*[@class ='menu top login']/ul/li/a",
+    "type": "xpath"
+  },
+  {
+    "key": "kyHesabimFavorilerButton",
+    "value": "//*[@id='content']/div[2]/div[1]/a[5]/span",
+    "type": "xpath"
+  },
+  {
+    "key": "kyFavorilerHeader",
+    "value": ".breadcrumb",
+    "type": "css"
+  },
+  {
+    "key": "kyFavorilerdenSilFirstButton",
+    "value": "//*[@data-title='Favorilerimden Sil'][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "kyPopup",
+    "value": ".swal2-title",
+    "type": "css"
+  },
+  {
+    "key": "kyNotification",
+    "value": "#notification>div",
+    "type": "css"
+  },
+  {
+    "key": "kyCikisYapButton",
+    "value": "//*[@id='header-top']/div/div[1]/div[1]/ul/li/div/ul/li[4]/a['Çıkış']",
+    "type": "xpath"
+  }
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  }
+]
