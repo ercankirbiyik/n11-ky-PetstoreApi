@@ -29,7 +29,7 @@ public class APISteps extends BaseTest {
         RestAssured.baseURI = BASE_URL;
     }
 
-
+    //Json kütüphanesi kullanılarak object oluşturacak metod
     @Step("Jobject Oluştur")
     public void createJObject()
     {
@@ -37,6 +37,7 @@ public class APISteps extends BaseTest {
         logger.info("Yeni bir JObject Olusturuldu");
     }
 
+    // Oluşturulan objeye veri ekleme işlemini yapacak metod
     @Step("<key> key ve <value> value degerini JObjecte ekle")
     public void addToRequestBody(String key, String value)
     {
@@ -44,6 +45,8 @@ public class APISteps extends BaseTest {
         logger.info("JObject'e " + key + ":" + value + " degeri eklendi");
     }
 
+    // RestAssured kütüphanesi kullanılarak yazılan
+    // API iteklerini atacak metod
     @Step("<api> apiye <type> methoduyla istek at")
     public void setApi(String api,String type)
     {
@@ -83,6 +86,7 @@ public class APISteps extends BaseTest {
         logger.info("Response : " + response.getBody().asString());
     }
 
+    // API isteği sonucu dönen response kodunu kontrol edecek metod
     @Step("status kod <statusCode> ile ayni mi kontrol et")
     public void checkStatusCode2(int statusCode)
     {
@@ -90,6 +94,7 @@ public class APISteps extends BaseTest {
         logger.info("status kod " + response.getStatusCode() + " ile ayni mi kontrol edildi");
     }
 
+    // API'ya atılan istek sonucu dönen responsun içerisindeki verileri kontrol eden metod
     @Step("response <key> alanı <value> iceriyor mu kontrol et")
     public void checkResponseMethod(String key, String value) {
         if (value.contains("null")) {
@@ -100,18 +105,21 @@ public class APISteps extends BaseTest {
         logger.info("response " + key + " alani  " + value + " iceriyor mu kontrol edildi");
     }
 
+    // Dönen resposun değerini hashmape kaydetmemizi sağlayan metod
     @Step("response <key> keyinin degerini <hashmapKey> olarak kaydet")
     public void responseHashmap(String key, String hashmapKey) {
         hashMap.put(hashmapKey, response.jsonPath().get(key).toString());
         logger.info("response " + key + " keyinin degerini " + hashmapKey + " olarak kaydedildi");
     }
 
+    // Hashmape kaydedilen değerleri jobjecte eklememizi sağlayan metod
     @Step("<key> keyine hashmapdeki <value> keyli değeri JObjecte ekle")
     public void AddElementHashmapToRest(String key,String value){
         jObject.put(key, hashMap.get(value).toString());
         logger.info("JObject'e " + key + ":" + hashMap.get(value).toString() + " degeri eklendi");
     }
 
+    // Belirlenen bir veriyi maplememizi sağlayan metod
     @Step("<key> key <value> value degerini headera ekle")
     public void addHeader(String key, String value)
     {
@@ -119,6 +127,7 @@ public class APISteps extends BaseTest {
         logger.info("Header'a " +key+ "," +value+ " degeri eklendi");
     }
 
+    // Belirli değerleri hasmape eklememizi sağlayan metod
     @Step("<key> keyli <value> degeri hashmap'e ekle")
     public void addHashmapManuel(String key, String value)
     {
@@ -126,6 +135,7 @@ public class APISteps extends BaseTest {
         logger.info(key + " keyli " + value + " degeri manuel olarak hashmap'e eklendi");
     }
 
+    // Hashmape eklenen verilerin beklenen değerlerle aynı olup olmadığını kontrol eden metod
     @Step("Hashmapin icindeki <hashmapKey> keyinin degeri <hashmapKey2> keyinin degeri ile <type> mı kontrol et")
     public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)
     {

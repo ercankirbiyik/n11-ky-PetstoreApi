@@ -89,34 +89,4 @@
     "value": "//*[@id='header-top']/div/div[1]/div[1]/ul/li/div/ul/li[4]/a['Çıkış']",
     "type": "xpath"
   }
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  },
-  {
-    "key": "",
-    "value": "",
-    "type": ""
-  }
 ]

@@ -3,8 +3,8 @@ Petstore API
 Created by Ercan Kirbiyik
 
 
-PostHashmap
--------------
+Post
+----
 * "ad" keyli "ercan" degeri hashmap'e ekle
 * "soyad" keyli "kirbiyik" degeri hashmap'e ekle
 
@@ -15,7 +15,6 @@ PostHashmap
 * "user" apiye "post" methoduyla istek at
 * status kod "200" ile ayni mi kontrol et
 * response "code" keyinin degerini "IDcodee" olarak kaydet
-
 
 * Jobject Oluştur
 * "id" keyine hashmapdeki "IDcodee" keyli değeri JObjecte ekle
