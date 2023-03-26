@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"n11":["specs/n11/n11.html"]}};
+var index = {"Tags":{},"Specs":{"Petstore API":["specs/PetstoreAPI/PetstoreAPI.html"]}};

@@ -17,7 +17,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BaseSteps extends BaseTest {
 
-
     public static int DEFAULT_MAX_ITERATION_COUNT = 1;
     public static int DEFAULT_MILLISECOND_WAIT_AMOUNT = 1;
 
@@ -26,7 +25,6 @@ public class BaseSteps extends BaseTest {
         initMap(getFileList(currentWorkingDir + "/src"));
         //initMap(getFileList());
     }
-
     WebElement findElement(String key) {
         By infoParam = getElementInfoToBy(findElementInfoByKey(key));
         WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
@@ -37,11 +35,9 @@ public class BaseSteps extends BaseTest {
                 webElement);
         return webElement;
     }
-
     List<WebElement> findElements(String key) {
         return driver.findElements(getElementInfoToBy(findElementInfoByKey(key)));
     }
-
     public By getElementInfoToBy(ElementInfo elementInfo) {
         By by = null;
         if (elementInfo.getType().equals("css")) {

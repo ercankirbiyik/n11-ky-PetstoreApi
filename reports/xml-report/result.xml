@@ -1,7 +1,7 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="/Users/ercan/IdeaProjects/N11/specs/n11/n11.spec" time="30.937" timestamp="2023-03-25T00:04:25" name="n11" errors="0" hostname="192.168.1.103">
+	<testsuite id="1" tests="1" failures="0" package="/Users/ercan/IdeaProjects/N11/specs/PetstoreAPI/PetstoreAPI.spec" time="5.089" timestamp="2023-03-26T21:07:59" name="Petstore API" errors="0" hostname="192.168.1.103">
 		<properties></properties>
-		<testcase classname="n11" name="N11 Favori Ürün Senaryosu" time="30.937"></testcase>
+		<testcase classname="Petstore API" name="Petstore HashMap Post" time="5.089"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>

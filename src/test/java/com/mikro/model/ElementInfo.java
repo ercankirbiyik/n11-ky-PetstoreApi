@@ -4,7 +4,6 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class ElementInfo {
-
     @SerializedName("key")
     @Expose
     private String key;
@@ -19,9 +18,7 @@ public class ElementInfo {
     private int index;
 
     public ElementInfo(){
-
     }
-
     public String getKey() {
         return key;
     }

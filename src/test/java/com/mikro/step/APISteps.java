@@ -13,16 +13,15 @@ import org.junit.jupiter.api.Assertions;
 import java.util.HashMap;
 import java.util.Map;
 
+import static io.restassured.RestAssured.given;
+
 public class APISteps extends BaseTest {
-
-
     Map<String, String> headers = new HashMap<>();
     HashMap<String,Object> hashMap=new HashMap<String,Object>();
 
     JSONObject jObject = null;
     Response response = null;
-    public static final String BASE_URL="https://petstore.swagger.io/v2/";
-
+    public static final String BASE_URL="https://petstore.swagger.io/v2";
 
     @BeforeScenario
     public void before() {
@@ -53,28 +52,28 @@ public class APISteps extends BaseTest {
         logger.info(RestAssured.baseURI + RestAssured.basePath + " servisine " + type + " istegi atildi");
         if(type.equals("post"))
         {
-            response= RestAssured.given().headers(headers)
+            response= given().headers(headers)
                     .contentType(ContentType.JSON)
                     .body(jObject.toString())
                     .post(api);
         }
         else if(type.equals("put"))
         {
-            response= RestAssured.given().headers(headers)
+            response= given().headers(headers)
                     .contentType(ContentType.JSON)
                     .body(jObject.toString())
                     .put(api);
         }
         else if(type.equals("get"))
         {
-            response= RestAssured.given().headers(headers)
+            response= given().headers(headers)
                     .contentType(ContentType.JSON)
                     .queryParam(jObject.toString())
                     .get(api);
         }
         else if(type.equals("delete"))
         {
-            response= RestAssured.given().headers(headers)
+            response= given().headers(headers)
                     .contentType(ContentType.JSON)
                     .body(jObject.toString())
                     .delete(api);
@@ -84,6 +83,19 @@ public class APISteps extends BaseTest {
         }
         logger.info("Request : " + jObject.toString());
         logger.info("Response : " + response.getBody().asString());
+    }
+
+    @Step("Get")
+    public void getRequest() {
+        Response response = given()
+                .contentType(ContentType.JSON)
+                .when()
+                .get("/posts")
+                .then()
+                .extract().response();
+
+        Assertions.assertEquals(200, response.statusCode());
+        Assertions.assertEquals("qui est esse", response.jsonPath().getString("title[1]"));
     }
 
     // API isteği sonucu dönen response kodunu kontrol edecek metod

@@ -35,9 +35,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
 public class BaseTest {
-
-
-
     protected static WebDriver driver;
     protected static Actions actions;
     protected Logger logger = LoggerFactory.getLogger(getClass());
@@ -45,16 +42,13 @@ public class BaseTest {
     ChromeOptions chromeOptions;
     FirefoxOptions firefoxOptions;
     EdgeOptions edgeOptions;
-
     String browserName = "chrome";
     String selectPlatform = "mac";
     String testUrl = "";
     public static String userDir = Paths.get("").toAbsolutePath().toString();
     public static String slash = System.getProperty("file.separator");
-
     public static final String DEFAULT_DIRECTORY_PATH = "elementValues";
     ConcurrentMap<String, Object> elementMapList = new ConcurrentHashMap<>();
-
 
     @BeforeScenario
     public void setUp() {
