@@ -3,12 +3,12 @@
 SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
 SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
 SLF4J: See also http://www.slf4j.org/codes.html#replay
-{"logLevel":"debug","message":"gauge-java took 566milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
-{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 566"}
+{"logLevel":"debug","message":"gauge-java took 946milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 946"}
 {"logLevel":"debug","message":"starting gRPC server..."}
-{"logLevel":"debug","message":"started gRPC server on port 50998"}
-{"logLevel":"info","message":"Listening on port:50998"}
-2023-03-26 21:19:15 INFO  Reflections:219 scan - Reflections took 3460 ms to scan 90 urls, producing 10980 keys and 62442 values
+{"logLevel":"debug","message":"started gRPC server on port 51036"}
+{"logLevel":"info","message":"Listening on port:51036"}
+2023-03-26 21:20:22 INFO  Reflections:219 scan - Reflections took 4162 ms to scan 90 urls, producing 10980 keys and 62442 values
 {"logLevel":"debug","message":"Scanning packages for steps"}
 {"logLevel":"debug","message":"Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'"}
 {"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
@@ -132,25 +132,25 @@ SLF4J: See also http://www.slf4j.org/codes.html#replay
 {"logLevel":"debug","message":"\tGet : public void getRequest()"}
 {"logLevel":"debug","message":"\t{} textini {} elementine yaz : public void ssendKeys(String text, String key)"}
 {"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
-2023-03-26 21:19:18 INFO  Reflections:219 scan - Reflections took 1537 ms to scan 90 urls, producing 10886 keys and 51696 values
-2023-03-26 21:19:19 INFO  BaseTest:55 setUp - ************************************  BeforeScenario  ************************************
-2023-03-26 21:19:19 INFO  BaseTest:58 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
-Mar 26, 2023 9:19:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+2023-03-26 21:20:25 INFO  Reflections:219 scan - Reflections took 1850 ms to scan 90 urls, producing 10886 keys and 51696 values
+2023-03-26 21:20:26 INFO  BaseTest:55 setUp - ************************************  BeforeScenario  ************************************
+2023-03-26 21:20:26 INFO  BaseTest:58 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+Mar 26, 2023 9:20:26 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 9493
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 8736
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 26, 2023 9:19:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 26, 2023 9:20:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 {"logLevel":"debug","message":"Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject"}
-2023-03-26 21:19:22 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
+2023-03-26 21:20:29 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
 {"logLevel":"debug","message":"Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi"}
-2023-03-26 21:19:22 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine get istegi atildi
-2023-03-26 21:19:24 INFO  APISteps:84 setApi - Request : {}
-2023-03-26 21:19:25 INFO  APISteps:85 setApi - Response : {"id":12,"category":{"id":0,"name":"dogs"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+2023-03-26 21:20:29 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine get istegi atildi
+2023-03-26 21:20:31 INFO  APISteps:84 setApi - Request : {}
+2023-03-26 21:20:31 INFO  APISteps:85 setApi - Response : {"code":1,"type":"error","message":"Pet not found"}
 {"logLevel":"debug","message":"Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2"}
-2023-03-26 21:19:25 INFO  APISteps:106 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+2023-03-26 21:20:31 INFO  APISteps:106 checkStatusCode2 - status kod 404 ile ayni mi kontrol edildi
 {"logLevel":"debug","message":"Killing Java runner..."}
 {"logLevel":"debug","message":"Stopping execution pool..."}
 {"logLevel":"debug","message":"Shutting down grpc server..."}

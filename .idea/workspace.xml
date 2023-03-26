@@ -4,58 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e603ded-cdfd-4b73-b302-0a0fb8ecaab8" name="Changes" comment="methods updated">
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-0f719489-2d0c-496d-ad75-9704ac0201fd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-141f8493-be65-4bf7-9a7d-ddc66f6fc8d1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-2629e814-5821-43cf-a593-28734d389fd0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-3d87828c-7b25-4240-a9c5-8a7adf607968.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-3f2a8400-9e1a-47f8-b755-40ef1aee89f1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-64608f28-fe25-4703-8c49-84d6574ede30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-660f0668-9edf-4377-9539-9d24eb110b96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-a68508a1-d2b3-4111-b266-97998a467ffa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-b57884f0-4ad2-4c91-813a-64f08e589431.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gauge/screenshots/screenshot-cf24fc80-8fca-44ed-8b60-5bc75f026a3f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectDocument/ProjectDocument.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1069-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1208-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1298-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1366-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1459-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1515-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1578-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1657-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1720-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1777-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1833-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/1895-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2719-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2827-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/882-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/995-java.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-0f719489-2d0c-496d-ad75-9704ac0201fd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-141f8493-be65-4bf7-9a7d-ddc66f6fc8d1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-2629e814-5821-43cf-a593-28734d389fd0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-3d87828c-7b25-4240-a9c5-8a7adf607968.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-3f2a8400-9e1a-47f8-b755-40ef1aee89f1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-64608f28-fe25-4703-8c49-84d6574ede30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-660f0668-9edf-4377-9539-9d24eb110b96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-a68508a1-d2b3-4111-b266-97998a467ffa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-b57884f0-4ad2-4c91-813a-64f08e589431.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-cf24fc80-8fca-44ed-8b60-5bc75f026a3f.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gauge/lastRunCmd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gauge/lastRunCmd.json" afterDir="false" />
+    <list default="true" id="4e603ded-cdfd-4b73-b302-0a0fb8ecaab8" name="Changes" comment="last updates added">
+      <change afterPath="$PROJECT_DIR$/logs/3044-java.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/api.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/gauge.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gauge.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/search_index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html-report/specs/PetstoreAPI/PetstoreAPI.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/specs/PetstoreAPI/PetstoreAPI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/specs/kitapYurdu/KitapYurdu.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/specs/kitapYurdu/KitapYurdu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/xml-report/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/xml-report/result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/model/ElementInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/model/ElementInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/step/APISteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/step/APISteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mikro/step/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mikro/step/BaseSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProjectDocument" />
       <recent name="$PROJECT_DIR$/web_driver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -114,10 +70,40 @@
       <recent name="$PROJECT_DIR$/src/test/resources/elementValues/" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Petstore HashMap Post">
+  <component name="RunManager" selected="Gauge Execution.Petstore varolmayan bir id için get isteği atma">
     <configuration name="Kitap Yurdu Favori Ürün Senaryosu" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/kitapYurdu/KitapYurdu.spec:5" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Petstore Get" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:23" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="N11" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Petstore HashMap Post (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:5" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -145,39 +131,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Petstore Negative Cases (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Petstore varolmayan bir id için get isteği atma" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:38" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="N11" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Petstore Negative Cases (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:38" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="N11" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Petstore Negative Cases (3)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:38" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/PetstoreAPI/PetstoreAPI.spec:35" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -192,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gauge Execution.Petstore varolmayan bir id için get isteği atma" />
+        <item itemvalue="Gauge Execution.Petstore Get" />
+        <item itemvalue="Gauge Execution.Petstore HashMap Post (1)" />
         <item itemvalue="Gauge Execution.Petstore HashMap Post" />
         <item itemvalue="Gauge Execution.Kitap Yurdu Favori Ürün Senaryosu" />
-        <item itemvalue="Gauge Execution.Petstore Negative Cases (3)" />
-        <item itemvalue="Gauge Execution.Petstore Negative Cases (2)" />
-        <item itemvalue="Gauge Execution.Petstore Negative Cases (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679834250588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last updates added">
+      <created>1679854523167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679854523167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +212,7 @@
     <MESSAGE value="new scenarios added" />
     <MESSAGE value="directories updated" />
     <MESSAGE value="methods updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods updated" />
+    <MESSAGE value="last updates added" />
+    <option name="LAST_COMMIT_MESSAGE" value="last updates added" />
   </component>
 </project>

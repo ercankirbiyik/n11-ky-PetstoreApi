@@ -15577,3 +15577,683 @@ Total time taken: 19.61s
 26-03-2023 21:07:59.608 [Gauge] [INFO] 
 Total time taken: 5.421s
 26-03-2023 21:07:59.609 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+26-03-2023 21:18:07.038 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/ercan/IdeaProjects/N11/.gauge/screenshots
+26-03-2023 21:18:07.040 [Gauge] [DEBUG] Plugin html-report is already installed.
+26-03-2023 21:18:07.040 [Gauge] [DEBUG] Plugin xml-report is already installed.
+26-03-2023 21:18:07.041 [Gauge] [DEBUG] Plugin java is already installed.
+26-03-2023 21:18:07.041 [Gauge] [DEBUG] Parsing started.
+26-03-2023 21:18:07.041 [Gauge] [DEBUG] Started concepts parsing.
+26-03-2023 21:18:07.047 [Gauge] [DEBUG] 30 concepts parsing completed.
+26-03-2023 21:18:07.047 [Gauge] [DEBUG] Started specifications parsing.
+26-03-2023 21:18:07.048 [Gauge] [DEBUG] 1 specifications parsing completed.
+26-03-2023 21:18:07.048 [Gauge] [DEBUG] Parsing completed.
+26-03-2023 21:18:07.066 [java] [DEBUG] ***** Printing Properties/Env Values *****
+26-03-2023 21:18:07.066 [java] [DEBUG] PATH: /Users/testinium/testinium/sdk/build-tools:/Users/testinium/testinium/sdk/platform-tools:/Users/testinium/testinium/sdk/tools:/Users/testinium/testinium/nodejs/bin:/Users/testinium/testinium/nodejs/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/testinium/.gauge/plugins/screenshot/0.1.0
+26-03-2023 21:18:07.066 [java] [DEBUG] JAVA_HOME: 
+26-03-2023 21:18:07.066 [java] [DEBUG] gauge_project_root: 
+26-03-2023 21:18:07.066 [java] [DEBUG] gauge_parallel_streams_count: 
+26-03-2023 21:18:07.066 [java] [DEBUG] gauge_reports_dir: reports
+26-03-2023 21:18:07.066 [java] [DEBUG] overwrite_reports: true
+26-03-2023 21:18:07.067 [java] [DEBUG] logs_directory: logs
+26-03-2023 21:18:07.067 [java] [DEBUG] enable_multithreading: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_specs_dir: specs
+26-03-2023 21:18:07.067 [java] [DEBUG] csv_delimiter: ,
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_java_home: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_custom_build_path: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_additional_libs: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_jvm_args: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_custom_compile_dir: 
+26-03-2023 21:18:07.067 [java] [DEBUG] gauge_clear_state_level: 
+26-03-2023 21:18:07.067 [java] [DEBUG] ***** END *****
+26-03-2023 21:18:07.774 [Gauge] [DEBUG] Checking updates...
+26-03-2023 21:18:07.775 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:18:07.981 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:18:08.044 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:18:08.108 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:18:08.177 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:18:10.638 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/rt.jar:/Users/ercan/IdeaProjects/N11/target/test-classes:/Users/testinium/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/testinium/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/testinium/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/testinium/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/testinium/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testinium/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/testinium/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/testinium/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/testinium/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/testinium/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/testinium/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/testinium/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/testinium/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/testinium/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/testinium/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/testinium/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/testinium/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/testinium/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/testinium/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/testinium/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/testinium/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testinium/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testinium/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testinium/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/testinium/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/testinium/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testinium/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/testinium/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/testinium/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/testinium/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/testinium/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/testinium/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/testinium/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/testinium/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/testinium/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/testinium/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+26-03-2023 21:18:10.638 [java] [DEBUG] found java executable in java
+26-03-2023 21:18:10.638 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+26-03-2023 21:18:10.638 [java] [DEBUG] stdout/stderr is logged to logs/3044-java.out
+26-03-2023 21:18:10.906 [java] [DEBUG] multithreading is set to false
+26-03-2023 21:18:11.324 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+26-03-2023 21:18:11.500 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+26-03-2023 21:18:11.500 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+26-03-2023 21:18:11.500 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+26-03-2023 21:18:11.828 [java] [DEBUG] gauge-java took 922milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+26-03-2023 21:18:11.828 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 922
+26-03-2023 21:18:11.828 [java] [DEBUG] starting gRPC server...
+26-03-2023 21:18:12.043 [java] [DEBUG] started gRPC server on port 50963
+26-03-2023 21:18:12.043 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50963
+26-03-2023 21:18:12.227 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50963
+26-03-2023 21:18:12.227 [Gauge] [DEBUG] Validation started.
+26-03-2023 21:18:15.786 [java] [INFO] 2023-03-26 21:18:15 INFO  Reflections:219 scan - Reflections took 4279 ms to scan 90 urls, producing 10980 keys and 62442 values
+26-03-2023 21:18:17.001 [java] [DEBUG] Scanning packages for steps
+26-03-2023 21:18:17.017 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:18:17.017 [java] [DEBUG] Found Check if current URL contains the value {} in current project scope.
+26-03-2023 21:18:17.018 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:18:17.018 [java] [DEBUG] Found Şu anki URL {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:18:17.018 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHeader' and 'com.mikro.step.APISteps.addHeader'
+26-03-2023 21:18:17.018 [java] [DEBUG] Found {} key {} value degerini headera ekle in current project scope.
+26-03-2023 21:18:17.018 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.responseHashmap' and 'com.mikro.step.APISteps.responseHashmap'
+26-03-2023 21:18:17.018 [java] [DEBUG] Found response {} keyinin degerini {} olarak kaydet in current project scope.
+26-03-2023 21:18:17.018 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:18:17.018 [java] [DEBUG] Found Check if element {} contains text {} in current project scope.
+26-03-2023 21:18:17.018 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:18:17.018 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:18:17.019 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:18:17.019 [java] [DEBUG] Found {} Elementine kadar kaydır in current project scope.
+26-03-2023 21:18:17.019 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:18:17.019 [java] [DEBUG] Found Scroll to Element {} in current project scope.
+26-03-2023 21:18:17.019 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:18:17.019 [java] [DEBUG] Found Send ENTER key to element {} in current project scope.
+26-03-2023 21:18:17.019 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:18:17.019 [java] [DEBUG] Found Elemente ENTER keyi yolla {} in current project scope.
+26-03-2023 21:18:17.019 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkDifferenceHashmap' and 'com.mikro.step.APISteps.checkDifferenceHashmap'
+26-03-2023 21:18:17.019 [java] [DEBUG] Found Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:18:17.020 [java] [DEBUG] Found Write value {} to element {} in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:18:17.020 [java] [DEBUG] Found {} textini {} elementine yaz in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:18:17.020 [java] [DEBUG] Found Check if element {} exists else print message {} in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:18:17.020 [java] [DEBUG] Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:18:17.020 [java] [DEBUG] Found Check if element {} exists in current project scope.
+26-03-2023 21:18:17.020 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found Element var mı kontrol et {} in current project scope.
+26-03-2023 21:18:17.021 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found Go to {} address in current project scope.
+26-03-2023 21:18:17.021 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found {} adresine git in current project scope.
+26-03-2023 21:18:17.021 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addToRequestBody' and 'com.mikro.step.APISteps.addToRequestBody'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found {} key ve {} value degerini JObjecte ekle in current project scope.
+26-03-2023 21:18:17.021 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkStatusCode2' and 'com.mikro.step.APISteps.checkStatusCode2'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found status kod {} ile ayni mi kontrol et in current project scope.
+26-03-2023 21:18:17.021 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.AddElementHashmapToRest' and 'com.mikro.step.APISteps.AddElementHashmapToRest'
+26-03-2023 21:18:17.021 [java] [DEBUG] Found {} keyine hashmapdeki {} keyli değeri JObjecte ekle in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:18:17.022 [java] [DEBUG] Found Wait {} milliseconds in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:18:17.022 [java] [DEBUG] Found {} milisaniye bekle in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:18:17.022 [java] [DEBUG] Found Click to element {} in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:18:17.022 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:18:17.022 [java] [DEBUG] Found Wait {} seconds in current project scope.
+26-03-2023 21:18:17.022 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:18:17.023 [java] [DEBUG] Found {} saniye bekle in current project scope.
+26-03-2023 21:18:17.023 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkResponseMethod' and 'com.mikro.step.APISteps.checkResponseMethod'
+26-03-2023 21:18:17.023 [java] [DEBUG] Found response {} alanı {} iceriyor mu kontrol et in current project scope.
+26-03-2023 21:18:17.023 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.createJObject' and 'com.mikro.step.APISteps.createJObject'
+26-03-2023 21:18:17.023 [java] [DEBUG] Found Jobject Oluştur in current project scope.
+26-03-2023 21:18:17.023 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:18:17.023 [java] [DEBUG] Found Check if element {} not contains text {} in current project scope.
+26-03-2023 21:18:17.023 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:18:17.023 [java] [DEBUG] Found {} elementi {} değerini içermiyor mu kontrol et in current project scope.
+26-03-2023 21:18:17.024 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHashmapManuel' and 'com.mikro.step.APISteps.addHashmapManuel'
+26-03-2023 21:18:17.024 [java] [DEBUG] Found {} keyli {} degeri hashmap'e ekle in current project scope.
+26-03-2023 21:18:17.024 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementAttributeWithJs' and 'com.mikro.step.BaseSteps.checkElementAttributeWithJs'
+26-03-2023 21:18:17.024 [java] [DEBUG] Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickToElementWithJavaScript' and 'com.mikro.step.BaseSteps.clickToElementWithJavaScript'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found {} elementine javascript ile tıkla in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.setApi' and 'com.mikro.step.APISteps.setApi'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found {} apiye {} methoduyla istek at in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.hover' and 'com.mikro.step.BaseSteps.hover'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found {} elementin üstünde bekle in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.getRequest' and 'com.mikro.step.APISteps.getRequest'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found Get in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found Wait for element then click {} in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:18:17.025 [java] [DEBUG] Found Elementi bekle ve sonra tıkla {} in current project scope.
+26-03-2023 21:18:17.025 [java] [DEBUG] Scanning packages for hooks
+26-03-2023 21:18:17.037 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} key {} value degerini headera ekle : public void addHeader(String key, String value)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	Wait {} milliseconds : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} key ve {} value degerini JObjecte ekle : public void addToRequestBody(String key, String value)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} adresine git : public void goToUrl(String url)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} apiye {} methoduyla istek at : public void setApi(String api, String type)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	Element {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	{} elementin üstünde bekle : public void hover(String key)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	Check if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:18:17.037 [java] [DEBUG] 	Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et : public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Element var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Jobject Oluştur : public void createJObject()
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Send ENTER key to element {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	{} saniye bekle : public void waitBySeconds(int seconds)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Wait for element then click {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	response {} keyinin degerini {} olarak kaydet : public void responseHashmap(String key, String hashmapKey)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Scroll to Element {} : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Check if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Go to {} address : public void goToUrl(String url)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Wait {} seconds : public void waitBySeconds(int seconds)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Check if element {} exists : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Write value {} to element {} : public void ssendKeys(String text, String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Check if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	{} keyli {} degeri hashmap'e ekle : public void addHashmapManuel(String key, String value)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	{} elementine javascript ile tıkla : public void clickToElementWithJavaScript(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Check if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	{} keyine hashmapdeki {} keyli değeri JObjecte ekle : public void AddElementHashmapToRest(String key, String value)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Elemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:18:17.038 [java] [DEBUG] 	Click to element {} : public void clickElement(String key)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	Elementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	status kod {} ile ayni mi kontrol et : public void checkStatusCode2(int statusCode)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	response {} alanı {} iceriyor mu kontrol et : public void checkResponseMethod(String key, String value)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	Şu anki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	Get : public void getRequest()
+26-03-2023 21:18:17.039 [java] [DEBUG] 	{} textini {} elementine yaz : public void ssendKeys(String text, String key)
+26-03-2023 21:18:17.039 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+26-03-2023 21:18:18.668 [java] [INFO] 2023-03-26 21:18:18 INFO  Reflections:219 scan - Reflections took 1622 ms to scan 90 urls, producing 10886 keys and 51696 values
+26-03-2023 21:18:18.814 [Gauge] [DEBUG] Validation completed.
+26-03-2023 21:18:18.815 [Gauge] [DEBUG] Run started
+26-03-2023 21:18:18.817 [Gauge] [DEBUG] Starting Html Report plugin
+26-03-2023 21:18:18.879 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50968
+26-03-2023 21:18:18.881 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50968
+26-03-2023 21:18:18.882 [Gauge] [DEBUG] Starting Xml Report plugin
+26-03-2023 21:18:18.938 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50973
+26-03-2023 21:18:18.943 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 50973
+26-03-2023 21:18:18.943 [Gauge] [DEBUG] Initialising suite data store.
+26-03-2023 21:18:19.595 [java] [INFO] 2023-03-26 21:18:19 INFO  BaseTest:55 setUp - ************************************  BeforeScenario  ************************************
+26-03-2023 21:18:19.595 [java] [INFO] 2023-03-26 21:18:19 INFO  BaseTest:58 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+26-03-2023 21:18:19.621 [java] [ERROR] Mar 26, 2023 9:18:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+26-03-2023 21:18:19.621 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+26-03-2023 21:18:19.914 [java] [ERROR] Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 18371
+26-03-2023 21:18:19.914 [java] [ERROR] Only local connections are allowed.
+26-03-2023 21:18:19.914 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+26-03-2023 21:18:19.946 [java] [ERROR] ChromeDriver was started successfully.
+26-03-2023 21:18:22.433 [java] [ERROR] Mar 26, 2023 9:18:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+26-03-2023 21:18:22.433 [java] [ERROR] INFO: Detected dialect: W3C
+26-03-2023 21:18:22.579 [java] [DEBUG] Executing '{} keyli {} degeri hashmap'e ekle' using 'class com.mikro.step.APISteps.addHashmapManuel
+26-03-2023 21:18:22.594 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:147 addHashmapManuel - ad keyli ercan degeri manuel olarak hashmap'e eklendi
+26-03-2023 21:18:22.615 [java] [DEBUG] Executing '{} keyli {} degeri hashmap'e ekle' using 'class com.mikro.step.APISteps.addHashmapManuel
+26-03-2023 21:18:22.616 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:147 addHashmapManuel - soyad keyli kirbiyik degeri manuel olarak hashmap'e eklendi
+26-03-2023 21:18:22.638 [java] [DEBUG] Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject
+26-03-2023 21:18:22.638 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
+26-03-2023 21:18:22.679 [java] [DEBUG] Executing '{} key ve {} value degerini JObjecte ekle' using 'class com.mikro.step.APISteps.addToRequestBody
+26-03-2023 21:18:22.680 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:44 addToRequestBody - JObject'e id:1 degeri eklendi
+26-03-2023 21:18:22.705 [java] [DEBUG] Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest
+26-03-2023 21:18:22.707 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:131 AddElementHashmapToRest - JObject'e username:ercan degeri eklendi
+26-03-2023 21:18:22.727 [java] [DEBUG] Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest
+26-03-2023 21:18:22.729 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:131 AddElementHashmapToRest - JObject'e firstName:kirbiyik degeri eklendi
+26-03-2023 21:18:22.747 [java] [DEBUG] Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi
+26-03-2023 21:18:22.748 [java] [INFO] 2023-03-26 21:18:22 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine post istegi atildi
+26-03-2023 21:18:25.149 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:84 setApi - Request : {"firstName":"kirbiyik","id":"1","username":"ercan"}
+26-03-2023 21:18:25.165 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:85 setApi - Response : {"code":200,"type":"unknown","message":"1"}
+26-03-2023 21:18:25.176 [java] [DEBUG] Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2
+26-03-2023 21:18:25.179 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:106 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+26-03-2023 21:18:25.189 [java] [DEBUG] Executing 'response {} keyinin degerini {} olarak kaydet' using 'class com.mikro.step.APISteps.responseHashmap
+26-03-2023 21:18:25.856 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:124 responseHashmap - response code keyinin degerini IDcodee olarak kaydedildi
+26-03-2023 21:18:25.864 [java] [DEBUG] Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject
+26-03-2023 21:18:25.864 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
+26-03-2023 21:18:25.873 [java] [DEBUG] Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest
+26-03-2023 21:18:25.873 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:131 AddElementHashmapToRest - JObject'e id:200 degeri eklendi
+26-03-2023 21:18:25.881 [java] [DEBUG] Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest
+26-03-2023 21:18:25.882 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:131 AddElementHashmapToRest - JObject'e username:ercan degeri eklendi
+26-03-2023 21:18:25.891 [java] [DEBUG] Executing '{} keyine hashmapdeki {} keyli değeri JObjecte ekle' using 'class com.mikro.step.APISteps.AddElementHashmapToRest
+26-03-2023 21:18:25.892 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:131 AddElementHashmapToRest - JObject'e firstName:kirbiyik degeri eklendi
+26-03-2023 21:18:25.899 [java] [DEBUG] Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi
+26-03-2023 21:18:25.899 [java] [INFO] 2023-03-26 21:18:25 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine post istegi atildi
+26-03-2023 21:18:26.664 [java] [INFO] 2023-03-26 21:18:26 INFO  APISteps:84 setApi - Request : {"firstName":"kirbiyik","id":"200","username":"ercan"}
+26-03-2023 21:18:26.665 [java] [INFO] 2023-03-26 21:18:26 INFO  APISteps:85 setApi - Response : {"code":200,"type":"unknown","message":"200"}
+26-03-2023 21:18:26.675 [java] [DEBUG] Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2
+26-03-2023 21:18:26.676 [java] [INFO] 2023-03-26 21:18:26 INFO  APISteps:106 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+26-03-2023 21:18:26.858 [html-report] [DEBUG] Transformed SuiteResult to report structure
+26-03-2023 21:18:26.896 [html-report] [INFO] Successfully generated html-report to => /Users/ercan/IdeaProjects/N11/reports/html-report/index.html
+26-03-2023 21:18:26.896 [html-report] [DEBUG] Done generating HTML report using theme from /Users/testinium/.gauge/plugins/html-report/4.1.4/themes/default
+26-03-2023 21:18:26.907 [xml-report] [INFO] Successfully generated xml-report to => /Users/ercan/IdeaProjects/N11/reports/xml-report
+26-03-2023 21:18:26.907 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+26-03-2023 21:18:26.907 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+26-03-2023 21:18:26.911 [java] [DEBUG] Killing Java runner...
+26-03-2023 21:18:26.914 [java] [DEBUG] Stopping execution pool...
+26-03-2023 21:18:26.914 [java] [DEBUG] Shutting down grpc server...
+26-03-2023 21:18:26.920 [java] [DEBUG] Runner killed gracefully.
+26-03-2023 21:18:27.421 [Gauge] [DEBUG] Runner with PID:3044 has exited
+26-03-2023 21:18:27.421 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:18:27.421 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:18:27.421 [Gauge] [INFO] 
+Total time taken: 8.038s
+26-03-2023 21:18:27.421 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+26-03-2023 21:19:08.234 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/ercan/IdeaProjects/N11/.gauge/screenshots
+26-03-2023 21:19:08.235 [Gauge] [DEBUG] Plugin java is already installed.
+26-03-2023 21:19:08.236 [Gauge] [DEBUG] Plugin html-report is already installed.
+26-03-2023 21:19:08.236 [Gauge] [DEBUG] Plugin xml-report is already installed.
+26-03-2023 21:19:08.237 [Gauge] [DEBUG] Parsing started.
+26-03-2023 21:19:08.237 [Gauge] [DEBUG] Started concepts parsing.
+26-03-2023 21:19:08.241 [Gauge] [DEBUG] 30 concepts parsing completed.
+26-03-2023 21:19:08.242 [Gauge] [DEBUG] Started specifications parsing.
+26-03-2023 21:19:08.242 [Gauge] [DEBUG] 1 specifications parsing completed.
+26-03-2023 21:19:08.243 [Gauge] [DEBUG] Parsing completed.
+26-03-2023 21:19:08.250 [java] [DEBUG] ***** Printing Properties/Env Values *****
+26-03-2023 21:19:08.251 [java] [DEBUG] PATH: /Users/testinium/testinium/sdk/build-tools:/Users/testinium/testinium/sdk/platform-tools:/Users/testinium/testinium/sdk/tools:/Users/testinium/testinium/nodejs/bin:/Users/testinium/testinium/nodejs/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/testinium/.gauge/plugins/screenshot/0.1.0
+26-03-2023 21:19:08.251 [java] [DEBUG] JAVA_HOME: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_project_root: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_parallel_streams_count: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_reports_dir: reports
+26-03-2023 21:19:08.251 [java] [DEBUG] overwrite_reports: true
+26-03-2023 21:19:08.251 [java] [DEBUG] logs_directory: logs
+26-03-2023 21:19:08.251 [java] [DEBUG] enable_multithreading: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_specs_dir: specs
+26-03-2023 21:19:08.251 [java] [DEBUG] csv_delimiter: ,
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_java_home: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_custom_build_path: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_additional_libs: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_jvm_args: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_custom_compile_dir: 
+26-03-2023 21:19:08.251 [java] [DEBUG] gauge_clear_state_level: 
+26-03-2023 21:19:08.251 [java] [DEBUG] ***** END *****
+26-03-2023 21:19:08.690 [Gauge] [DEBUG] Checking updates...
+26-03-2023 21:19:08.691 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:19:09.145 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:19:09.217 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:19:09.291 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:19:09.362 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:19:11.770 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/rt.jar:/Users/ercan/IdeaProjects/N11/target/test-classes:/Users/testinium/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/testinium/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/testinium/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/testinium/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/testinium/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testinium/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/testinium/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/testinium/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/testinium/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/testinium/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/testinium/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/testinium/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/testinium/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/testinium/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/testinium/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/testinium/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/testinium/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/testinium/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/testinium/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/testinium/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/testinium/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testinium/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testinium/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testinium/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/testinium/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/testinium/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testinium/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/testinium/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/testinium/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/testinium/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/testinium/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/testinium/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/testinium/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/testinium/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/testinium/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/testinium/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+26-03-2023 21:19:11.770 [java] [DEBUG] found java executable in java
+26-03-2023 21:19:11.770 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+26-03-2023 21:19:11.770 [java] [DEBUG] stdout/stderr is logged to logs/3119-java.out
+26-03-2023 21:19:11.893 [java] [DEBUG] multithreading is set to false
+26-03-2023 21:19:12.244 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+26-03-2023 21:19:12.363 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+26-03-2023 21:19:12.363 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+26-03-2023 21:19:12.363 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+26-03-2023 21:19:12.459 [java] [DEBUG] gauge-java took 566milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+26-03-2023 21:19:12.459 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 566
+26-03-2023 21:19:12.459 [java] [DEBUG] starting gRPC server...
+26-03-2023 21:19:12.584 [java] [DEBUG] started gRPC server on port 50998
+26-03-2023 21:19:12.584 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 50998
+26-03-2023 21:19:12.688 [Gauge] [DEBUG] Successfully made the connection with runner with port: 50998
+26-03-2023 21:19:12.688 [Gauge] [DEBUG] Validation started.
+26-03-2023 21:19:15.831 [java] [INFO] 2023-03-26 21:19:15 INFO  Reflections:219 scan - Reflections took 3460 ms to scan 90 urls, producing 10980 keys and 62442 values
+26-03-2023 21:19:16.675 [java] [DEBUG] Scanning packages for steps
+26-03-2023 21:19:16.685 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:19:16.685 [java] [DEBUG] Found Check if current URL contains the value {} in current project scope.
+26-03-2023 21:19:16.685 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:19:16.685 [java] [DEBUG] Found Şu anki URL {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:19:16.686 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHeader' and 'com.mikro.step.APISteps.addHeader'
+26-03-2023 21:19:16.686 [java] [DEBUG] Found {} key {} value degerini headera ekle in current project scope.
+26-03-2023 21:19:16.686 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.responseHashmap' and 'com.mikro.step.APISteps.responseHashmap'
+26-03-2023 21:19:16.686 [java] [DEBUG] Found response {} keyinin degerini {} olarak kaydet in current project scope.
+26-03-2023 21:19:16.686 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:19:16.686 [java] [DEBUG] Found Check if element {} contains text {} in current project scope.
+26-03-2023 21:19:16.686 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:19:16.687 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:19:16.687 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:19:16.687 [java] [DEBUG] Found {} Elementine kadar kaydır in current project scope.
+26-03-2023 21:19:16.688 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:19:16.688 [java] [DEBUG] Found Scroll to Element {} in current project scope.
+26-03-2023 21:19:16.689 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:19:16.689 [java] [DEBUG] Found Send ENTER key to element {} in current project scope.
+26-03-2023 21:19:16.689 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:19:16.689 [java] [DEBUG] Found Elemente ENTER keyi yolla {} in current project scope.
+26-03-2023 21:19:16.689 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkDifferenceHashmap' and 'com.mikro.step.APISteps.checkDifferenceHashmap'
+26-03-2023 21:19:16.689 [java] [DEBUG] Found Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et in current project scope.
+26-03-2023 21:19:16.690 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:19:16.690 [java] [DEBUG] Found Write value {} to element {} in current project scope.
+26-03-2023 21:19:16.690 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:19:16.690 [java] [DEBUG] Found {} textini {} elementine yaz in current project scope.
+26-03-2023 21:19:16.690 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:19:16.690 [java] [DEBUG] Found Check if element {} exists else print message {} in current project scope.
+26-03-2023 21:19:16.691 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:19:16.691 [java] [DEBUG] Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope.
+26-03-2023 21:19:16.691 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:19:16.691 [java] [DEBUG] Found Check if element {} exists in current project scope.
+26-03-2023 21:19:16.691 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:19:16.691 [java] [DEBUG] Found Element var mı kontrol et {} in current project scope.
+26-03-2023 21:19:16.691 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:19:16.691 [java] [DEBUG] Found Go to {} address in current project scope.
+26-03-2023 21:19:16.691 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:19:16.691 [java] [DEBUG] Found {} adresine git in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addToRequestBody' and 'com.mikro.step.APISteps.addToRequestBody'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found {} key ve {} value degerini JObjecte ekle in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkStatusCode2' and 'com.mikro.step.APISteps.checkStatusCode2'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found status kod {} ile ayni mi kontrol et in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.AddElementHashmapToRest' and 'com.mikro.step.APISteps.AddElementHashmapToRest'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found {} keyine hashmapdeki {} keyli değeri JObjecte ekle in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found Wait {} milliseconds in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found {} milisaniye bekle in current project scope.
+26-03-2023 21:19:16.692 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:19:16.692 [java] [DEBUG] Found Click to element {} in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found Wait {} seconds in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found {} saniye bekle in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkResponseMethod' and 'com.mikro.step.APISteps.checkResponseMethod'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found response {} alanı {} iceriyor mu kontrol et in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.createJObject' and 'com.mikro.step.APISteps.createJObject'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found Jobject Oluştur in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found Check if element {} not contains text {} in current project scope.
+26-03-2023 21:19:16.693 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:19:16.693 [java] [DEBUG] Found {} elementi {} değerini içermiyor mu kontrol et in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHashmapManuel' and 'com.mikro.step.APISteps.addHashmapManuel'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found {} keyli {} degeri hashmap'e ekle in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementAttributeWithJs' and 'com.mikro.step.BaseSteps.checkElementAttributeWithJs'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickToElementWithJavaScript' and 'com.mikro.step.BaseSteps.clickToElementWithJavaScript'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found {} elementine javascript ile tıkla in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.setApi' and 'com.mikro.step.APISteps.setApi'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found {} apiye {} methoduyla istek at in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.hover' and 'com.mikro.step.BaseSteps.hover'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found {} elementin üstünde bekle in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.getRequest' and 'com.mikro.step.APISteps.getRequest'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found Get in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:19:16.694 [java] [DEBUG] Found Wait for element then click {} in current project scope.
+26-03-2023 21:19:16.694 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:19:16.695 [java] [DEBUG] Found Elementi bekle ve sonra tıkla {} in current project scope.
+26-03-2023 21:19:16.695 [java] [DEBUG] Scanning packages for hooks
+26-03-2023 21:19:16.707 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} key {} value degerini headera ekle : public void addHeader(String key, String value)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Wait {} milliseconds : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} key ve {} value degerini JObjecte ekle : public void addToRequestBody(String key, String value)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} adresine git : public void goToUrl(String url)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} apiye {} methoduyla istek at : public void setApi(String api, String type)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Element {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} elementin üstünde bekle : public void hover(String key)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Check if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et : public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Element var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Jobject Oluştur : public void createJObject()
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Send ENTER key to element {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	{} saniye bekle : public void waitBySeconds(int seconds)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Wait for element then click {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	response {} keyinin degerini {} olarak kaydet : public void responseHashmap(String key, String hashmapKey)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Scroll to Element {} : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Check if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:19:16.708 [java] [DEBUG] 	Go to {} address : public void goToUrl(String url)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Wait {} seconds : public void waitBySeconds(int seconds)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Check if element {} exists : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Write value {} to element {} : public void ssendKeys(String text, String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Check if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} keyli {} degeri hashmap'e ekle : public void addHashmapManuel(String key, String value)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} elementine javascript ile tıkla : public void clickToElementWithJavaScript(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Check if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} keyine hashmapdeki {} keyli değeri JObjecte ekle : public void AddElementHashmapToRest(String key, String value)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Elemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Click to element {} : public void clickElement(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Elementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	status kod {} ile ayni mi kontrol et : public void checkStatusCode2(int statusCode)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	response {} alanı {} iceriyor mu kontrol et : public void checkResponseMethod(String key, String value)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Şu anki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Get : public void getRequest()
+26-03-2023 21:19:16.709 [java] [DEBUG] 	{} textini {} elementine yaz : public void ssendKeys(String text, String key)
+26-03-2023 21:19:16.709 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+26-03-2023 21:19:18.252 [java] [INFO] 2023-03-26 21:19:18 INFO  Reflections:219 scan - Reflections took 1537 ms to scan 90 urls, producing 10886 keys and 51696 values
+26-03-2023 21:19:18.406 [Gauge] [DEBUG] Validation completed.
+26-03-2023 21:19:18.406 [Gauge] [DEBUG] Run started
+26-03-2023 21:19:18.408 [Gauge] [DEBUG] Starting Html Report plugin
+26-03-2023 21:19:18.499 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51005
+26-03-2023 21:19:18.505 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51005
+26-03-2023 21:19:18.507 [Gauge] [DEBUG] Starting Xml Report plugin
+26-03-2023 21:19:18.564 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51010
+26-03-2023 21:19:18.567 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51010
+26-03-2023 21:19:18.567 [Gauge] [DEBUG] Initialising suite data store.
+26-03-2023 21:19:19.278 [java] [INFO] 2023-03-26 21:19:19 INFO  BaseTest:55 setUp - ************************************  BeforeScenario  ************************************
+26-03-2023 21:19:19.278 [java] [INFO] 2023-03-26 21:19:19 INFO  BaseTest:58 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+26-03-2023 21:19:19.300 [java] [ERROR] Mar 26, 2023 9:19:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+26-03-2023 21:19:19.300 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+26-03-2023 21:19:19.548 [java] [ERROR] Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 9493
+26-03-2023 21:19:19.548 [java] [ERROR] Only local connections are allowed.
+26-03-2023 21:19:19.548 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+26-03-2023 21:19:19.576 [java] [ERROR] ChromeDriver was started successfully.
+26-03-2023 21:19:22.534 [java] [ERROR] Mar 26, 2023 9:19:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+26-03-2023 21:19:22.534 [java] [ERROR] INFO: Detected dialect: W3C
+26-03-2023 21:19:22.624 [java] [DEBUG] Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject
+26-03-2023 21:19:22.630 [java] [INFO] 2023-03-26 21:19:22 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
+26-03-2023 21:19:22.652 [java] [DEBUG] Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi
+26-03-2023 21:19:22.658 [java] [INFO] 2023-03-26 21:19:22 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine get istegi atildi
+26-03-2023 21:19:24.991 [java] [INFO] 2023-03-26 21:19:24 INFO  APISteps:84 setApi - Request : {}
+26-03-2023 21:19:25.008 [java] [INFO] 2023-03-26 21:19:25 INFO  APISteps:85 setApi - Response : {"id":12,"category":{"id":0,"name":"dogs"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}
+26-03-2023 21:19:25.019 [java] [DEBUG] Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2
+26-03-2023 21:19:25.021 [java] [INFO] 2023-03-26 21:19:25 INFO  APISteps:106 checkStatusCode2 - status kod 200 ile ayni mi kontrol edildi
+26-03-2023 21:19:25.144 [html-report] [DEBUG] Transformed SuiteResult to report structure
+26-03-2023 21:19:25.177 [html-report] [INFO] Successfully generated html-report to => /Users/ercan/IdeaProjects/N11/reports/html-report/index.html
+26-03-2023 21:19:25.177 [html-report] [DEBUG] Done generating HTML report using theme from /Users/testinium/.gauge/plugins/html-report/4.1.4/themes/default
+26-03-2023 21:19:25.185 [xml-report] [INFO] Successfully generated xml-report to => /Users/ercan/IdeaProjects/N11/reports/xml-report
+26-03-2023 21:19:25.185 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+26-03-2023 21:19:25.185 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+26-03-2023 21:19:25.188 [java] [DEBUG] Killing Java runner...
+26-03-2023 21:19:25.189 [java] [DEBUG] Stopping execution pool...
+26-03-2023 21:19:25.189 [java] [DEBUG] Shutting down grpc server...
+26-03-2023 21:19:25.198 [java] [DEBUG] Runner killed gracefully.
+26-03-2023 21:19:25.699 [Gauge] [DEBUG] Runner with PID:3119 has exited
+26-03-2023 21:19:25.699 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:19:25.699 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:19:25.699 [Gauge] [INFO] 
+Total time taken: 6.733s
+26-03-2023 21:19:25.700 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+26-03-2023 21:20:12.565 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/ercan/IdeaProjects/N11/.gauge/screenshots
+26-03-2023 21:20:12.567 [Gauge] [DEBUG] Plugin java is already installed.
+26-03-2023 21:20:12.567 [Gauge] [DEBUG] Plugin html-report is already installed.
+26-03-2023 21:20:12.568 [Gauge] [DEBUG] Plugin xml-report is already installed.
+26-03-2023 21:20:12.568 [Gauge] [DEBUG] Parsing started.
+26-03-2023 21:20:12.568 [Gauge] [DEBUG] Started concepts parsing.
+26-03-2023 21:20:12.578 [Gauge] [DEBUG] 30 concepts parsing completed.
+26-03-2023 21:20:12.578 [Gauge] [DEBUG] Started specifications parsing.
+26-03-2023 21:20:12.580 [Gauge] [DEBUG] 1 specifications parsing completed.
+26-03-2023 21:20:12.580 [Gauge] [DEBUG] Parsing completed.
+26-03-2023 21:20:12.602 [java] [DEBUG] ***** Printing Properties/Env Values *****
+26-03-2023 21:20:12.603 [java] [DEBUG] PATH: /Users/testinium/testinium/sdk/build-tools:/Users/testinium/testinium/sdk/platform-tools:/Users/testinium/testinium/sdk/tools:/Users/testinium/testinium/nodejs/bin:/Users/testinium/testinium/nodejs/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/testinium/.gauge/plugins/screenshot/0.1.0
+26-03-2023 21:20:12.603 [java] [DEBUG] JAVA_HOME: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_project_root: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_parallel_streams_count: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_reports_dir: reports
+26-03-2023 21:20:12.603 [java] [DEBUG] overwrite_reports: true
+26-03-2023 21:20:12.603 [java] [DEBUG] logs_directory: logs
+26-03-2023 21:20:12.603 [java] [DEBUG] enable_multithreading: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_specs_dir: specs
+26-03-2023 21:20:12.603 [java] [DEBUG] csv_delimiter: ,
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_java_home: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_custom_build_path: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_additional_libs: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_jvm_args: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_custom_compile_dir: 
+26-03-2023 21:20:12.603 [java] [DEBUG] gauge_clear_state_level: 
+26-03-2023 21:20:12.603 [java] [DEBUG] ***** END *****
+26-03-2023 21:20:13.793 [Gauge] [DEBUG] Checking updates...
+26-03-2023 21:20:13.794 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:20:14.002 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:20:14.057 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:20:14.120 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:20:14.172 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,spectacle,xml-report&o=darwin&a=amd64
+26-03-2023 21:20:16.995 [java] [DEBUG] classpath set to /Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/rt.jar:/Users/ercan/IdeaProjects/N11/target/test-classes:/Users/testinium/.m2/repository/com/thoughtworks/gauge/gauge-java/0.9.1/gauge-java-0.9.1.jar:/Users/testinium/.m2/repository/org/assertj/assertj-core/3.22.0/assertj-core-3.22.0.jar:/Users/testinium/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/testinium/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/testinium/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testinium/.m2/repository/com/github/javaparser/javaparser-core/3.16.3/javaparser-core-3.16.3.jar:/Users/testinium/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/testinium/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/testinium/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/testinium/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-netty-shaded/1.41.2/grpc-netty-shaded-1.41.2.jar:/Users/testinium/.m2/repository/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar:/Users/testinium/.m2/repository/io/perfmark/perfmark-api/0.23.0/perfmark-api-0.23.0.jar:/Users/testinium/.m2/repository/io/grpc/grpc-core/1.41.2/grpc-core-1.41.2.jar:/Users/testinium/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf/1.41.2/grpc-protobuf-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-api/1.41.2/grpc-api-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-context/1.41.2/grpc-context-1.41.2.jar:/Users/testinium/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.0.1/proto-google-common-protos-2.0.1.jar:/Users/testinium/.m2/repository/io/grpc/grpc-protobuf-lite/1.41.2/grpc-protobuf-lite-1.41.2.jar:/Users/testinium/.m2/repository/io/grpc/grpc-stub/1.41.2/grpc-stub-1.41.2.jar:/Users/testinium/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.1.0/junit-jupiter-engine-5.1.0.jar:/Users/testinium/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-engine/1.1.0/junit-platform-engine-1.1.0.jar:/Users/testinium/.m2/repository/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar:/Users/testinium/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/Users/testinium/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/testinium/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/testinium/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/testinium/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/testinium/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/testinium/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/testinium/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/testinium/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/testinium/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/testinium/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/testinium/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/testinium/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/testinium/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/testinium/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/testinium/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/testinium/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/testinium/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/testinium/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/testinium/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/testinium/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/testinium/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/testinium/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/Users/testinium/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/testinium/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/testinium/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar
+26-03-2023 21:20:16.996 [java] [DEBUG] found java executable in java
+26-03-2023 21:20:16.996 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+26-03-2023 21:20:16.996 [java] [DEBUG] stdout/stderr is logged to logs/3190-java.out
+26-03-2023 21:20:17.372 [java] [DEBUG] multithreading is set to false
+26-03-2023 21:20:17.921 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+26-03-2023 21:20:18.137 [java] [ERROR] SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+26-03-2023 21:20:18.137 [java] [ERROR] SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+26-03-2023 21:20:18.137 [java] [ERROR] SLF4J: See also http://www.slf4j.org/codes.html#replay
+26-03-2023 21:20:18.319 [java] [DEBUG] gauge-java took 946milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+26-03-2023 21:20:18.319 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 946
+26-03-2023 21:20:18.319 [java] [DEBUG] starting gRPC server...
+26-03-2023 21:20:18.528 [java] [DEBUG] started gRPC server on port 51036
+26-03-2023 21:20:18.529 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51036
+26-03-2023 21:20:18.720 [Gauge] [DEBUG] Successfully made the connection with runner with port: 51036
+26-03-2023 21:20:18.720 [Gauge] [DEBUG] Validation started.
+26-03-2023 21:20:22.306 [java] [INFO] 2023-03-26 21:20:22 INFO  Reflections:219 scan - Reflections took 4162 ms to scan 90 urls, producing 10980 keys and 62442 values
+26-03-2023 21:20:23.542 [java] [DEBUG] Scanning packages for steps
+26-03-2023 21:20:23.555 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:20:23.555 [java] [DEBUG] Found Check if current URL contains the value {} in current project scope.
+26-03-2023 21:20:23.555 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkURLContainsRepeat' and 'com.mikro.step.BaseSteps.checkURLContainsRepeat'
+26-03-2023 21:20:23.556 [java] [DEBUG] Found Şu anki URL {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:20:23.556 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHeader' and 'com.mikro.step.APISteps.addHeader'
+26-03-2023 21:20:23.556 [java] [DEBUG] Found {} key {} value degerini headera ekle in current project scope.
+26-03-2023 21:20:23.556 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.responseHashmap' and 'com.mikro.step.APISteps.responseHashmap'
+26-03-2023 21:20:23.556 [java] [DEBUG] Found response {} keyinin degerini {} olarak kaydet in current project scope.
+26-03-2023 21:20:23.556 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:20:23.556 [java] [DEBUG] Found Check if element {} contains text {} in current project scope.
+26-03-2023 21:20:23.557 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementContainsText' and 'com.mikro.step.BaseSteps.checkElementContainsText'
+26-03-2023 21:20:23.557 [java] [DEBUG] Found {} elementi {} değerini içeriyor mu kontrol et in current project scope.
+26-03-2023 21:20:23.557 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:20:23.557 [java] [DEBUG] Found {} Elementine kadar kaydır in current project scope.
+26-03-2023 21:20:23.557 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.scrollToElementToBeVisible' and 'com.mikro.step.BaseSteps.scrollToElementToBeVisible'
+26-03-2023 21:20:23.557 [java] [DEBUG] Found Scroll to Element {} in current project scope.
+26-03-2023 21:20:23.557 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:20:23.557 [java] [DEBUG] Found Send ENTER key to element {} in current project scope.
+26-03-2023 21:20:23.558 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.sendKeyToElementENTER' and 'com.mikro.step.BaseSteps.sendKeyToElementENTER'
+26-03-2023 21:20:23.558 [java] [DEBUG] Found Elemente ENTER keyi yolla {} in current project scope.
+26-03-2023 21:20:23.558 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkDifferenceHashmap' and 'com.mikro.step.APISteps.checkDifferenceHashmap'
+26-03-2023 21:20:23.558 [java] [DEBUG] Found Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et in current project scope.
+26-03-2023 21:20:23.558 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:20:23.558 [java] [DEBUG] Found Write value {} to element {} in current project scope.
+26-03-2023 21:20:23.558 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.ssendKeys' and 'com.mikro.step.BaseSteps.ssendKeys'
+26-03-2023 21:20:23.558 [java] [DEBUG] Found {} textini {} elementine yaz in current project scope.
+26-03-2023 21:20:23.558 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:20:23.558 [java] [DEBUG] Found Check if element {} exists else print message {} in current project scope.
+26-03-2023 21:20:23.559 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExistsWithMessage'
+26-03-2023 21:20:23.559 [java] [DEBUG] Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope.
+26-03-2023 21:20:23.559 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:20:23.559 [java] [DEBUG] Found Check if element {} exists in current project scope.
+26-03-2023 21:20:23.559 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.getElementWithKeyIfExists' and 'com.mikro.step.BaseSteps.getElementWithKeyIfExists'
+26-03-2023 21:20:23.559 [java] [DEBUG] Found Element var mı kontrol et {} in current project scope.
+26-03-2023 21:20:23.560 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:20:23.560 [java] [DEBUG] Found Go to {} address in current project scope.
+26-03-2023 21:20:23.560 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.goToUrl' and 'com.mikro.step.BaseSteps.goToUrl'
+26-03-2023 21:20:23.560 [java] [DEBUG] Found {} adresine git in current project scope.
+26-03-2023 21:20:23.561 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addToRequestBody' and 'com.mikro.step.APISteps.addToRequestBody'
+26-03-2023 21:20:23.561 [java] [DEBUG] Found {} key ve {} value degerini JObjecte ekle in current project scope.
+26-03-2023 21:20:23.561 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkStatusCode2' and 'com.mikro.step.APISteps.checkStatusCode2'
+26-03-2023 21:20:23.561 [java] [DEBUG] Found status kod {} ile ayni mi kontrol et in current project scope.
+26-03-2023 21:20:23.562 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.AddElementHashmapToRest' and 'com.mikro.step.APISteps.AddElementHashmapToRest'
+26-03-2023 21:20:23.562 [java] [DEBUG] Found {} keyine hashmapdeki {} keyli değeri JObjecte ekle in current project scope.
+26-03-2023 21:20:23.562 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:20:23.562 [java] [DEBUG] Found Wait {} milliseconds in current project scope.
+26-03-2023 21:20:23.562 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitByMilliSeconds' and 'com.mikro.step.BaseSteps.waitByMilliSeconds'
+26-03-2023 21:20:23.562 [java] [DEBUG] Found {} milisaniye bekle in current project scope.
+26-03-2023 21:20:23.563 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:20:23.563 [java] [DEBUG] Found Click to element {} in current project scope.
+26-03-2023 21:20:23.563 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickElement' and 'com.mikro.step.BaseSteps.clickElement'
+26-03-2023 21:20:23.563 [java] [DEBUG] Found Elementine tıkla {} in current project scope.
+26-03-2023 21:20:23.563 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:20:23.563 [java] [DEBUG] Found Wait {} seconds in current project scope.
+26-03-2023 21:20:23.563 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.waitBySeconds' and 'com.mikro.step.BaseSteps.waitBySeconds'
+26-03-2023 21:20:23.563 [java] [DEBUG] Found {} saniye bekle in current project scope.
+26-03-2023 21:20:23.563 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.checkResponseMethod' and 'com.mikro.step.APISteps.checkResponseMethod'
+26-03-2023 21:20:23.563 [java] [DEBUG] Found response {} alanı {} iceriyor mu kontrol et in current project scope.
+26-03-2023 21:20:23.564 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.createJObject' and 'com.mikro.step.APISteps.createJObject'
+26-03-2023 21:20:23.564 [java] [DEBUG] Found Jobject Oluştur in current project scope.
+26-03-2023 21:20:23.564 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:20:23.564 [java] [DEBUG] Found Check if element {} not contains text {} in current project scope.
+26-03-2023 21:20:23.564 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementNotContainsText' and 'com.mikro.step.BaseSteps.checkElementNotContainsText'
+26-03-2023 21:20:23.564 [java] [DEBUG] Found {} elementi {} değerini içermiyor mu kontrol et in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.addHashmapManuel' and 'com.mikro.step.APISteps.addHashmapManuel'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found {} keyli {} degeri hashmap'e ekle in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementAttributeWithJs' and 'com.mikro.step.BaseSteps.checkElementAttributeWithJs'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.clickToElementWithJavaScript' and 'com.mikro.step.BaseSteps.clickToElementWithJavaScript'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found {} elementine javascript ile tıkla in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.setApi' and 'com.mikro.step.APISteps.setApi'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found {} apiye {} methoduyla istek at in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.hover' and 'com.mikro.step.BaseSteps.hover'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found {} elementin üstünde bekle in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.APISteps.getRequest' and 'com.mikro.step.APISteps.getRequest'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found Get in current project scope.
+26-03-2023 21:20:23.565 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:20:23.565 [java] [DEBUG] Found Wait for element then click {} in current project scope.
+26-03-2023 21:20:23.566 [java] [DEBUG] Comparing 'com.mikro.step.BaseSteps.checkElementExistsThenClick' and 'com.mikro.step.BaseSteps.checkElementExistsThenClick'
+26-03-2023 21:20:23.566 [java] [DEBUG] Found Elementi bekle ve sonra tıkla {} in current project scope.
+26-03-2023 21:20:23.566 [java] [DEBUG] Scanning packages for hooks
+26-03-2023 21:20:23.577 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} key {} value degerini headera ekle : public void addHeader(String key, String value)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Wait {} milliseconds : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} key ve {} value degerini JObjecte ekle : public void addToRequestBody(String key, String value)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} adresine git : public void goToUrl(String url)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} apiye {} methoduyla istek at : public void setApi(String api, String type)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Element {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	{} elementin üstünde bekle : public void hover(String key)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Check if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Hashmapin icindeki {} keyinin degeri {} keyinin degeri ile {} mı kontrol et : public void checkDifferenceHashmap(String hashmapKey, String hashmapKey1, String type)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Element var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:20:23.578 [java] [DEBUG] 	Jobject Oluştur : public void createJObject()
+26-03-2023 21:20:23.579 [java] [DEBUG] 	Send ENTER key to element {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:20:23.579 [java] [DEBUG] 	{} saniye bekle : public void waitBySeconds(int seconds)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Wait for element then click {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	response {} keyinin degerini {} olarak kaydet : public void responseHashmap(String key, String hashmapKey)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Scroll to Element {} : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Check if element {} not contains text {} : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Go to {} address : public void goToUrl(String url)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Wait {} seconds : public void waitBySeconds(int seconds)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Check if element {} exists : public WebElement getElementWithKeyIfExists(String key)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Write value {} to element {} : public void ssendKeys(String text, String key)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	Check if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	{} keyli {} degeri hashmap'e ekle : public void addHashmapManuel(String key, String value)
+26-03-2023 21:20:23.580 [java] [DEBUG] 	{} elementine javascript ile tıkla : public void clickToElementWithJavaScript(String key)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Check if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	{} keyine hashmapdeki {} keyli değeri JObjecte ekle : public void AddElementHashmapToRest(String key, String value)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Elemente ENTER keyi yolla {} : public void sendKeyToElementENTER(String key)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Click to element {} : public void clickElement(String key)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Elementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	status kod {} ile ayni mi kontrol et : public void checkStatusCode2(int statusCode)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	response {} alanı {} iceriyor mu kontrol et : public void checkResponseMethod(String key, String value)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	{} Elementine kadar kaydır : public WebElement scrollToElementToBeVisible(String key)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Şu anki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	{} elementi {} değerini içermiyor mu kontrol et : public void checkElementNotContainsText(String key, String expectedText)
+26-03-2023 21:20:23.581 [java] [DEBUG] 	Get : public void getRequest()
+26-03-2023 21:20:23.581 [java] [DEBUG] 	{} textini {} elementine yaz : public void ssendKeys(String text, String key)
+26-03-2023 21:20:23.582 [java] [DEBUG] 	Elementine tıkla {} : public void clickElement(String key)
+26-03-2023 21:20:25.440 [java] [INFO] 2023-03-26 21:20:25 INFO  Reflections:219 scan - Reflections took 1850 ms to scan 90 urls, producing 10886 keys and 51696 values
+26-03-2023 21:20:25.575 [Gauge] [DEBUG] Validation completed.
+26-03-2023 21:20:25.576 [Gauge] [DEBUG] Run started
+26-03-2023 21:20:25.579 [Gauge] [DEBUG] Starting Html Report plugin
+26-03-2023 21:20:25.650 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51041
+26-03-2023 21:20:25.653 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51041
+26-03-2023 21:20:25.655 [Gauge] [DEBUG] Starting Xml Report plugin
+26-03-2023 21:20:25.706 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 51046
+26-03-2023 21:20:25.708 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 51046
+26-03-2023 21:20:25.708 [Gauge] [DEBUG] Initialising suite data store.
+26-03-2023 21:20:26.444 [java] [INFO] 2023-03-26 21:20:26 INFO  BaseTest:55 setUp - ************************************  BeforeScenario  ************************************
+26-03-2023 21:20:26.444 [java] [INFO] 2023-03-26 21:20:26 INFO  BaseTest:58 setUp - Local cihazda mac ortaminda chrome browserinda test ayaga kalkacak
+26-03-2023 21:20:26.468 [java] [ERROR] Mar 26, 2023 9:20:26 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+26-03-2023 21:20:26.468 [java] [ERROR] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+26-03-2023 21:20:26.747 [java] [ERROR] Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 8736
+26-03-2023 21:20:26.747 [java] [ERROR] Only local connections are allowed.
+26-03-2023 21:20:26.747 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+26-03-2023 21:20:26.773 [java] [ERROR] ChromeDriver was started successfully.
+26-03-2023 21:20:29.531 [java] [ERROR] Mar 26, 2023 9:20:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+26-03-2023 21:20:29.531 [java] [ERROR] INFO: Detected dialect: W3C
+26-03-2023 21:20:29.578 [java] [DEBUG] Executing 'Jobject Oluştur' using 'class com.mikro.step.APISteps.createJObject
+26-03-2023 21:20:29.582 [java] [INFO] 2023-03-26 21:20:29 INFO  APISteps:36 createJObject - Yeni bir JObject Olusturuldu
+26-03-2023 21:20:29.601 [java] [DEBUG] Executing '{} apiye {} methoduyla istek at' using 'class com.mikro.step.APISteps.setApi
+26-03-2023 21:20:29.603 [java] [INFO] 2023-03-26 21:20:29 INFO  APISteps:52 setApi - https://petstore.swagger.io/v2 servisine get istegi atildi
+26-03-2023 21:20:31.376 [java] [INFO] 2023-03-26 21:20:31 INFO  APISteps:84 setApi - Request : {}
+26-03-2023 21:20:31.390 [java] [INFO] 2023-03-26 21:20:31 INFO  APISteps:85 setApi - Response : {"code":1,"type":"error","message":"Pet not found"}
+26-03-2023 21:20:31.401 [java] [DEBUG] Executing 'status kod {} ile ayni mi kontrol et' using 'class com.mikro.step.APISteps.checkStatusCode2
+26-03-2023 21:20:31.403 [java] [INFO] 2023-03-26 21:20:31 INFO  APISteps:106 checkStatusCode2 - status kod 404 ile ayni mi kontrol edildi
+26-03-2023 21:20:31.510 [html-report] [DEBUG] Transformed SuiteResult to report structure
+26-03-2023 21:20:31.528 [html-report] [INFO] Successfully generated html-report to => /Users/ercan/IdeaProjects/N11/reports/html-report/index.html
+26-03-2023 21:20:31.528 [html-report] [DEBUG] Done generating HTML report using theme from /Users/testinium/.gauge/plugins/html-report/4.1.4/themes/default
+26-03-2023 21:20:31.530 [xml-report] [INFO] Successfully generated xml-report to => /Users/ercan/IdeaProjects/N11/reports/xml-report
+26-03-2023 21:20:31.530 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+26-03-2023 21:20:31.530 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+26-03-2023 21:20:31.532 [java] [DEBUG] Killing Java runner...
+26-03-2023 21:20:31.534 [java] [DEBUG] Stopping execution pool...
+26-03-2023 21:20:31.534 [java] [DEBUG] Shutting down grpc server...
+26-03-2023 21:20:31.548 [java] [DEBUG] Runner killed gracefully.
+26-03-2023 21:20:32.044 [Gauge] [DEBUG] Runner with PID:3190 has exited
+26-03-2023 21:20:32.045 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:20:32.045 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+26-03-2023 21:20:32.045 [Gauge] [INFO] 
+Total time taken: 5.933s
+26-03-2023 21:20:32.046 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

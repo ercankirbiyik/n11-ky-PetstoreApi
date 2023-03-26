@@ -1,7 +1,7 @@
 <testsuites>
-	<testsuite id="1" tests="1" failures="0" package="/Users/ercan/IdeaProjects/N11/specs/PetstoreAPI/PetstoreAPI.spec" time="5.089" timestamp="2023-03-26T21:07:59" name="Petstore API" errors="0" hostname="192.168.1.103">
+	<testsuite id="1" tests="1" failures="0" package="/Users/ercan/IdeaProjects/N11/specs/PetstoreAPI/PetstoreAPI.spec" time="5.667" timestamp="2023-03-26T21:20:31" name="Petstore API" errors="0" hostname="192.168.1.103">
 		<properties></properties>
-		<testcase classname="Petstore API" name="Petstore HashMap Post" time="5.089"></testcase>
+		<testcase classname="Petstore API" name="Petstore varolmayan bir id için get isteği atma" time="5.667"></testcase>
 		<system-out></system-out>
 		<system-err></system-err>
 	</testsuite>
