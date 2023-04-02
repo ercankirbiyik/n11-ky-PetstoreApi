@@ -5,7 +5,6 @@ import com.mikro.model.ElementInfo;
 import com.thoughtworks.gauge.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -245,7 +244,8 @@ public class BaseSteps extends BaseTest {
     }
 
 
-    @Step({"<key> elementinin value degeri <expectedValue> degerini iceriyor mu kontrol et"})
+    @Step({"<key> elementinin value degeri <expectedValue> degerini iceriyor mu kontrol et",
+                "Check the value of the element <key> contains <expectedValue>"})
     public void checkElementAttributeWithJs(String key, String expectedValue) {
         WebElement webElement = findElement(key);
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -255,13 +255,15 @@ public class BaseSteps extends BaseTest {
         String value = objectValue.toString();
     }
 
-    @Step("<key> elementin üstünde bekle")
+    @Step({"<key> elementin üstünde bekle",
+            "Hold on element<key>"})
     public void hover(String key) {
         hoverElement(findElement(key));
         logger.info(key + " elementinin üzerinde beklendi.");
     }
 
-    @Step("<key> elementine javascript ile tıkla")
+    @Step({"<key> elementine javascript ile tıkla",
+            "Click element <key> with javascript"})
     public void clickToElementWithJavaScript(String key) {
         WebElement element = findElement(key);
         javascriptclicker(element);

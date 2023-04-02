@@ -45,7 +45,7 @@ public class APISteps extends BaseTest {
     }
 
     // RestAssured kütüphanesi kullanılarak yazılan
-    // API iteklerini atacak metod
+    // API isteklerini atacak metod
     @Step("<api> apiye <type> methoduyla istek at")
     public void setApi(String api,String type)
     {

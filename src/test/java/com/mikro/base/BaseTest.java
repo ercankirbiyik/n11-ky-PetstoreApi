@@ -97,11 +97,6 @@ public class BaseTest {
         driver.quit();
     }
 
-
-    /*
-     ****** JSON DOSYALARININ DİRECTORY İÇİNE GÖMÜLEBİLMESİ İÇİN BU METOD İPTAL EDİLDİ HEMEN ALTA YENİSİ YAZILDI. *******
-
-     */
     public void initMap(List<File> fileList) {
         elementMapList = new ConcurrentHashMap<>();
         Type elementType = new TypeToken<List<ElementInfo>>() {
