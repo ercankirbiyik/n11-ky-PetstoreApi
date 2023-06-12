@@ -1,8 +1,8 @@
 [
-	"/usr/local/bin/gauge",
+	"/opt/homebrew/bin/gauge",
 	"run",
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/Users/ercan/IdeaProjects/N11/specs/PetstoreAPI/PetstoreAPI.spec:35"
+	"/Users/ercankirbiyik/AquaProjects/n11-ky-PetstoreApi/specs/kitapYurdu/KitapYurdu.spec:5"
 ]

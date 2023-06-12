@@ -1,0 +1,13 @@
+{
+  "restrictions": {
+    "commands": {
+      "mode": "restricted"
+    },
+    "settableVariables": {
+      "allowed": [
+        "myVar",
+        "otherVar"
+      ]
+    }
+  }
+}
